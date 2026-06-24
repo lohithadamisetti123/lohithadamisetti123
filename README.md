@@ -305,11 +305,11 @@ Hands-on experience building
 
 <p align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=damisettilohitha&show_icons=true&theme=tokyonight"/>
+<img src="https://github-readme-stats.vercel.app/api?username=lohithadamisetti123&show_icons=true&theme=tokyonight"/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=damisettilohitha&theme=tokyonight"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=lohithadamisetti123&theme=tokyonight"/>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=damisettilohitha&layout=compact&theme=tokyonight"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=lohithadamisetti123&layout=compact&theme=tokyonight"/>
 
 </p>
 
