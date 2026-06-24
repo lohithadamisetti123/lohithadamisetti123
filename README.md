@@ -149,7 +149,7 @@
 ---
 
 ## 📊 Software Engineering Deep-Dive
-
+```
 💡 Architecture & Advanced Paradigms
 ├── Event Driven Architecture (Kafka, RabbitMQ)
 ├── Microservices & API Gateways
@@ -158,7 +158,7 @@
 ├── Event Sourcing & Change Data Capture (CDC Pipelines)
 └── Web3 DApps & Solidity Smart Contracts
 
-
+```
 ---
 
 ## 📈 GitHub Metrics
