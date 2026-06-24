@@ -1,87 +1,77 @@
-<div align="center">
+<h1 align="center">Hi 👋, I'm Lohitha Damisetti</h1>
+<h3 align="center">Aspiring Software Developer | Full Stack Developer | AI & Backend Enthusiast | Problem Solver</h3>
 
-# 👋 Hi, I'm Lohitha Damisetti
-
-### 🚀 Software Developer | Full Stack Engineer | Backend Developer | AI & Blockchain Enthusiast
-
-<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=24&duration=2500&pause=700&color=00F7FF&center=true&vCenter=true&width=700&lines=Full+Stack+Developer;Backend+Developer;Software+Engineer;AI+Application+Developer;System+Design+Enthusiast;Blockchain+Developer;Open+Source+Learner;Always+Building+Something+Awesome"/>
-
-<img src="https://komarev.com/ghpvc/?username=damisettilohitha&label=Profile+Views&color=0e75b6&style=for-the-badge"/>
-
-</div>
+<p align="center">
+Building scalable applications, AI-powered solutions, backend systems, and modern web applications.
+</p>
 
 ---
 
-# 💫 About Me
+## 🚀 About Me
 
-🎓 B.Tech Data Science Student (2023-2027)
+🎓 B.Tech Data Science Student (2023-2027) at Aditya College of Engineering and Technology
 
-🏫 Aditya College of Engineering and Technology
-
-💻 Passionate about building scalable software systems.
-
-❤️ I love solving difficult engineering problems.
+💻 Passionate Software Developer focused on solving real-world problems through technology.
 
 🔥 Interested in
 
-- Backend Development
 - Full Stack Development
+- Backend Engineering
 - Artificial Intelligence
-- Blockchain Development
-- Distributed Systems
 - System Design
+- Blockchain Development
 
-I believe software should be **fast, scalable, secure and simple.**
-
----
-
-# 🏆 Achievements
-
-🎯 9.13 CGPA
-
-🔥 450+ Problems on LeetCode
-
-🔥 500+ Problems on CodeChef
-
-🔥 250+ Problems on GeeksforGeeks
-
-🏅 15+ HackerRank Badges
-
-🚀 Cleared Adobe Hackathon Round-1
-
-🚀 Cleared HackerEarth Round-1
-
-👨‍💻 Full Stack Development Intern @ Technical Hub
-
-👨‍💼 Team Lead - Dream Vacation Planner
-
-🌐 Frontend Developer - Tech360
-
-⚡ Completed 30+ Production-Level Software Engineering Projects
+📈 Strong believer in continuous learning and building production-ready applications.
 
 ---
 
-# 🚀 Featured Projects
+## 🏆 Highlights
 
-# 🛡️ PolicyGuard AI
+⭐ 9.13 CGPA
 
-AI Powered Privacy Risk Analyzer
+⭐ 450+ LeetCode Problems
 
-## Features
+⭐ 500+ CodeChef Problems
 
-✅ Detects risky privacy clauses
+⭐ 250+ GeeksforGeeks Problems
 
-✅ AI Generated Risk Score
+⭐ 15+ HackerRank Badges
 
-✅ Desktop Monitoring
+⭐ Cleared Adobe Hackathon Round 1
 
-✅ Real-time Alerts
+⭐ Cleared HackerEarth Hackathon Round 1
 
-✅ AI Recommendations
+⭐ Team Lead for Dream Vacation Planner Project
 
-✅ Privacy Policy Summarization
+⭐ Frontend Developer for Tech360 Portal
 
-## Tech
+⭐ Full Stack Development Intern at Technical Hub
+
+⭐ Completed 30+ Real World Software Engineering Projects
+
+---
+
+# 💼 Featured Projects
+
+## 🔐 PolicyGuard AI
+
+An AI-powered Privacy Risk Analyzer that automatically analyzes Privacy Policies and Terms & Conditions for desktop, web and mobile applications.
+
+### Features
+
+✔ AI Risk Detection
+
+✔ Privacy Score Generation
+
+✔ Smart Recommendations
+
+✔ Desktop Monitoring
+
+✔ Real-time Alerts
+
+✔ Policy Summarization
+
+### Tech Stack
 
 React
 
@@ -91,13 +81,15 @@ Electron
 
 Node.js
 
-Express
+Express.js
 
-MongoDB
+MongoDB Atlas
 
 OpenAI API
 
 Prompt Engineering
+
+NLP
 
 Docker
 
@@ -111,135 +103,91 @@ Axios
 
 ---
 
-# 🏢 Multi Tenant SaaS Platform
+## 🏢 Multi-Tenant SaaS Platform
 
-A production-ready SaaS application supporting multiple organizations with secure tenant isolation.
+A production-ready SaaS platform supporting multiple organizations with secure tenant isolation.
 
 ### Features
 
-✔ Authentication
+- Authentication
+- RBAC
+- Project Management
+- Team Management
+- Task Tracking
 
-✔ RBAC
+Tech
 
-✔ Team Management
+Node.js
 
-✔ Project Management
+Express.js
 
-✔ Task Tracking
+React
 
-✔ JWT Security
+PostgreSQL
 
-✔ Dockerized Deployment
+Docker
+
+JWT
 
 ---
 
-# 💳 Payment Gateway
+## 💳 Payment Gateway
 
-Built a complete Payment Gateway inspired by Razorpay & Stripe.
-
-Supports
-
-- Hosted Checkout
+Developed a complete payment gateway supporting
 
 - Merchant Dashboard
+- Hosted Checkout
+- UPI Payments
+- Card Payments
+- Order Management
 
-- UPI
+Tech
 
-- Cards
+Spring Boot
 
-- Order Creation
+Node.js
 
-- Payment Processing
+React
+
+PostgreSQL
+
+Docker
+
+REST APIs
 
 ---
 
-# 🌐 Tech360 Portal
+## 🌐 Tech360 Portal
 
-Worked as Frontend Developer.
+Worked as Frontend Developer in a team of six members.
 
-Modules developed
+Developed
 
-- Drives
-
-- Internships
-
+- Drives & Internships
+- Contest Tracking
 - Resume Builder
-
-- Contest Tracker
-
 - Startup Portal
-
-- DSA Learning
-
----
-
-# ⚡ Software Engineering Experience
-
-Apart from personal projects, I have built production-ready applications involving
-
-🚀 Redis Caching
-
-🚀 Apache Kafka
-
-🚀 RabbitMQ
-
-🚀 Docker
-
-🚀 CQRS
-
-🚀 Event Sourcing
-
-🚀 Change Data Capture
-
-🚀 AI Chatbots
-
-🚀 LLM Applications
-
-🚀 Chrome Extensions
-
-🚀 Data Lakehouse
-
-🚀 Reinforcement Learning
-
-🚀 Blockchain DApps
-
-🚀 DAO Governance
-
-🚀 NFT Marketplace
-
-🚀 Smart Contracts
-
-🚀 Cross Chain Applications
-
-🚀 Event Driven Architecture
-
-🚀 Payment Systems
-
-🚀 PKI Authentication
-
-🚀 OAuth
-
-🚀 JWT
+- DSA Learning Platform
 
 ---
 
 # 🛠 Tech Stack
 
-## Languages
+### Languages
 
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus)
+C++
 
-![Java](https://img.shields.io/badge/Java-red?style=for-the-badge&logo=openjdk)
+Java
 
-![Python](https://img.shields.io/badge/Python-yellow?style=for-the-badge&logo=python)
+Python
 
-![JavaScript](https://img.shields.io/badge/JavaScript-black?style=for-the-badge&logo=javascript)
+JavaScript
 
-![SQL](https://img.shields.io/badge/SQL-blue?style=for-the-badge)
+SQL
 
 ---
 
-## Frontend
+### Frontend
 
 React
 
@@ -249,15 +197,13 @@ HTML
 
 CSS
 
-Tailwind
+Tailwind CSS
 
 Bootstrap
 
-Electron
-
 ---
 
-## Backend
+### Backend
 
 Node.js
 
@@ -265,15 +211,13 @@ Express.js
 
 REST APIs
 
-JWT
+JWT Authentication
 
 Swagger
 
-Spring Boot
-
 ---
 
-## Database
+### Databases
 
 MongoDB
 
@@ -285,7 +229,7 @@ Redis
 
 ---
 
-## DevOps
+### DevOps & Tools
 
 Docker
 
@@ -295,83 +239,103 @@ GitHub
 
 Postman
 
-Linux
+Electron
+
+Electron Builder
+
+Axios
+
+Cheerio
 
 ---
 
-## AI
+### AI
 
 OpenAI API
 
 Prompt Engineering
 
-LLMs
-
-NLP
-
-Gemini API
+Natural Language Processing
 
 ---
 
-## Blockchain
+## 📊 Software Engineering Experience
 
-Ethereum
+Hands-on experience building
 
-Solidity
+✅ Payment Systems
 
-Hardhat
+✅ SaaS Platforms
 
-OpenZeppelin
+✅ AI Applications
 
-Chainlink CCIP
+✅ Backend APIs
 
-DAO
+✅ Authentication Systems
 
-ERC20
+✅ Redis Caching
 
-ERC721
+✅ Event Driven Architecture
+
+✅ Kafka Applications
+
+✅ RabbitMQ Systems
+
+✅ Blockchain DApps
+
+✅ Smart Contracts
+
+✅ Chrome Extensions
+
+✅ Data Pipelines
+
+✅ Dockerized Applications
+
+✅ CQRS
+
+✅ Event Sourcing
+
+✅ CDC Pipelines
+
+✅ AI Chatbots
 
 ---
 
-# 📊 GitHub Stats
+## 📈 GitHub Stats
 
-![](https://github-readme-stats.vercel.app/api?username=damisettilohitha&theme=tokyonight&show_icons=true)
+<p align="center">
 
-![](https://github-readme-streak-stats.herokuapp.com/?user=damisettilohitha&theme=tokyonight)
+<img src="https://github-readme-stats.vercel.app/api?username=damisettilohitha&show_icons=true&theme=tokyonight"/>
 
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=damisettilohitha&layout=compact&theme=tokyonight)
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=damisettilohitha&theme=tokyonight"/>
 
----
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=damisettilohitha&layout=compact&theme=tokyonight"/>
 
-# 🏆 GitHub Trophies
-
-![](https://github-profile-trophy.vercel.app/?username=damisettilohitha&theme=tokyonight&row=2&column=4)
+</p>
 
 ---
 
-# 📈 Contribution Graph
+## 🌱 Currently Learning
 
-![](https://github-readme-activity-graph.vercel.app/graph?username=damisettilohitha&theme=tokyo-night)
+Advanced Backend Engineering
 
----
+System Design
 
-# 🌱 Currently Learning
+Cloud Computing
 
 Microservices
 
 Kubernetes
 
-Cloud Computing
-
-Advanced System Design
-
-Large Scale Distributed Systems
+Blockchain Development
 
 ---
 
-# 📫 Connect With Me
+## 🤝 Connect With Me
 
-📧 damisettilohitha@gmail.com
+📧 Email
+
+damisettilohitha@gmail.com
 
 💼 LinkedIn
 
@@ -395,8 +359,6 @@ https://www.hackerrank.com/damisettilohitha
 
 ---
 
-<div align="center">
+## 💬 Quote
 
-## ⭐ "Building software that scales, solves real-world problems, and creates impact."
-
-</div>
+> "I don't just write code. I build scalable solutions that solve real-world problems."
