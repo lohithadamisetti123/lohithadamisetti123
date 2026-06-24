@@ -14,10 +14,6 @@
 
 ## 🚀 About Me
 
-<p align="middle">
-  <img src="https://github-profile-trophy.vercel.app/?username=lohithadamisetti123&theme=tokyonight&column=7" alt="GitHub Trophies" />
-</p>
-
 - 🎓 **Education:** B.Tech Data Science Student (2023-2027) at Aditya College of Engineering and Technology
 - 💻 **Focus:** Passionate Software Developer focused on solving real-world problems through technology.
 - 📈 **Philosophy:** Strong believer in continuous learning and building production-ready applications.
@@ -46,53 +42,41 @@
   <tr>
     <td width="50%" valign="top">
       <h3>🔐 PolicyGuard AI</h3>
-      <img src="https://via.placeholder.com/400x200?text=PolicyGuard+AI+Dashboard+Demo" alt="PolicyGuard AI Demo" width="100%"/>
       <p>An AI-powered Privacy Risk Analyzer that automatically analyzes Privacy Policies and Terms & Conditions for desktop, web, and mobile applications.</p>
       <p>
-        <kbd>React</kbd> <kbd>React Native</kbd> <kbd>Electron</kbd> <kbd>Node.js</kbd> <kbd>MongoDB</kbd> <kbd>OpenAI API</kbd> <kbd>Docker</kbd>
+        <code>React</code> <code>React Native</code> <code>Electron</code> <code>Node.js</code> <code>MongoDB</code> <code>OpenAI API</code> <code>Docker</code>
       </p>
-      <ul>
-        <li>✔ AI Risk Detection & Privacy Score Generation</li>
-        <li>✔ Real-time Desktop Monitoring & Alerts</li>
-      </ul>
+      ✔ AI Risk Detection & Privacy Score Generation<br/>
+      ✔ Real-time Desktop Monitoring & Alerts
     </td>
     <td width="50%" valign="top">
       <h3>🏢 Multi-Tenant SaaS Platform</h3>
-      <img src="https://via.placeholder.com/400x200?text=SaaS+Platform+Tenant+Isolation+Demo" alt="SaaS Platform Demo" width="100%"/>
       <p>A production-ready SaaS platform supporting multiple organizations with secure tenant isolation, RBAC, and team management.</p>
       <p>
-        <kbd>Node.js</kbd> <kbd>Express.js</kbd> <kbd>React</kbd> <kbd>PostgreSQL</kbd> <kbd>Docker</kbd> <kbd>JWT</kbd>
+        <code>Node.js</code> <code>Express.js</code> <code>React</code> <code>PostgreSQL</code> <code>Docker</code> <code>JWT</code>
       </p>
-      <ul>
-        <li>✔ Secure Tenant Isolation & Granular RBAC</li>
-        <li>✔ Real-time Task Tracking & Project Management</li>
-      </ul>
+      ✔ Secure Tenant Isolation & Granular RBAC<br/>
+      ✔ Real-time Task Tracking & Project Management
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
       <h3>💳 Payment Gateway System</h3>
-      <img src="https://via.placeholder.com/400x200?text=Merchant+Dashboard+Checkout+Demo" alt="Payment Gateway Demo" width="100%"/>
       <p>A complete financial payment gateway supporting hosted checkouts, merchant dashboards, UPI, and card payments.</p>
       <p>
-        <kbd>Spring Boot</kbd> <kbd>Node.js</kbd> <kbd>React</kbd> <kbd>PostgreSQL</kbd> <kbd>Docker</kbd>
+        <code>Spring Boot</code> <code>Node.js</code> <code>React</code> <code>PostgreSQL</code> <code>Docker</code>
       </p>
-      <ul>
-        <li>✔ Merchant Dashboard & Order Management</li>
-        <li>✔ Secure Hosted Checkout Flow</li>
-      </ul>
+      ✔ Merchant Dashboard & Order Management<br/>
+      ✔ Secure Hosted Checkout Flow
     </td>
     <td width="50%" valign="top">
       <h3>🌐 Tech360 Portal</h3>
-      <img src="https://via.placeholder.com/400x200?text=Tech360+Portal+Interface+Demo" alt="Tech360 Portal Demo" width="100%"/>
       <p>Collaborated in a team of six to build a unified hub empowering students and developers through real-time career resources.</p>
       <p>
-        <kbd>HTML5</kbd> <kbd>CSS3</kbd> <kbd>JavaScript</kbd> <kbd>Bootstrap</kbd> <kbd>Contest Tracker API</kbd>
+        <code>HTML5</code> <code>CSS3</code> <code>JavaScript</code> <code>Bootstrap</code> <code>Contest Tracker API</code>
       </p>
-      <ul>
-        <li>✔ Live Contest Tracking & DSA Learning Platform</li>
-        <li>✔ Dynamic Resume Builder & Job Drive Modules</li>
-      </ul>
+      ✔ Live Contest Tracking & DSA Learning Platform<br/>
+      ✔ Dynamic Resume Builder & Job Drive Modules
     </td>
   </tr>
 </table>
@@ -149,7 +133,9 @@
 ---
 
 ## 📊 Software Engineering Deep-Dive
+
 ```
+
 💡 Architecture & Advanced Paradigms
 ├── Event Driven Architecture (Kafka, RabbitMQ)
 ├── Microservices & API Gateways
@@ -159,6 +145,7 @@
 └── Web3 DApps & Solidity Smart Contracts
 
 ```
+
 ---
 
 ## 📈 GitHub Metrics
