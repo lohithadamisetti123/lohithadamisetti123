@@ -83,68 +83,158 @@
 
 ---
 
-# 🛠 Tech Stack
+# ⚡ Engineering Stack
 
-### 🚀 Languages & Core Backend
+### 💻 Languages
 <p>
-  <img src="https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
-  <img src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white" />
-  <img src="https://img.shields.io/badge/python-%233776AB.svg?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/javascript-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/node.js-%23339933.svg?style=for-the-badge&logo=node.js&logoColor=white" />
-  <img src="https://img.shields.io/badge/express.js-%23000000.svg?style=for-the-badge&logo=express&logoColor=white" />
-  <img src="https://img.shields.io/badge/spring%20boot-%236DB33F.svg?style=for-the-badge&logo=spring-boot&logoColor=white" />
+  <img src="https://skillicons.dev/icons?i=cpp,java,python,javascript,go,solidity,html,css" />
 </p>
 
-### 🎨 Frontend Frameworks & Design
+### 🎨 Frontend
 <p>
-  <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361dafb" />
-  <img src="https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361dafb" />
-  <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" />
-  <img src="https://img.shields.io/badge/tailwind-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white" />
-  <img src="https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white" />
+  <img src="https://skillicons.dev/icons?i=react,nextjs,electron,tailwind,bootstrap,vue,vite" />
 </p>
 
-### 🗄️ Databases & Caching
+### ⚙️ Backend
 <p>
-  <img src="https://img.shields.io/badge/MongoDB-%2347A248.svg?style=for-the-badge&logo=mongodb&logoColor=white" />
-  <img src="https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white" />
-  <img src="https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white" />
+  <img src="https://skillicons.dev/icons?i=nodejs,express,spring,fastapi" />
 </p>
 
-### 🛠️ DevOps, Infrastructure & Tools
+### 🗄️ Database & Caching
 <p>
-  <img src="https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" />
-  <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" />
-  <img src="https://img.shields.io/badge/Electron-47848F?style=for-the-badge&logo=electron&logoColor=white" />
+  <img src="https://skillicons.dev/icons?i=mongodb,mysql,postgres,redis" />
+</p>
+
+### ☁️ Cloud & DevOps
+<p>
+  <img src="https://skillicons.dev/icons?i=docker,git,github,linux,aws" />
 </p>
 
 ### 🤖 Artificial Intelligence
 <p>
-  <img src="https://img.shields.io/badge/OpenAI%20API-412991?style=for-the-badge&logo=openai&logoColor=white" />
-  <img src="https://img.shields.io/badge/NLP-Green?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Prompt%20Engineering-Blue?style=for-the-badge" />
+  OpenAI API • Gemini API • Ollama • Llama 3.2 • Prompt Engineering • NLP • Deep Learning • Fine-Tuning • Structured Output • AI Agents • Intent Classification • AI Chatbots
+</p>
+
+### ⛓️ Blockchain
+<p>
+  Ethereum • Solidity • Hardhat • Foundry • Ethers.js • OpenZeppelin • Chainlink CCIP • ERC20 • ERC721 • DAO • NFT • DEX • UUPS Proxy • Omnichain Applications • Smart Contracts • Gas Optimization
+</p>
+
+### 📊 Data Engineering
+<p>
+  Apache Kafka • RabbitMQ • Hadoop • Delta Lake • DuckDB • CDC Pipelines • ETL • Data Warehousing • Apache Flink • Event Streaming
+</p>
+
+### 🔐 Security & Access Control
+<p>
+  JWT • RSA Encryption • PKI Authentication • Role Based Access Control (RBAC) • Email Security • OAuth • Authentication • Authorization
 </p>
 
 ---
 
-## 📊 Software Engineering Deep-Dive
+# 🚀 Engineering Experience
 
-```
+Throughout my software engineering journey, I have designed and implemented production-ready systems across multiple domains.
 
-💡 Architecture & Advanced Paradigms
-├── Event Driven Architecture (Kafka, RabbitMQ)
-├── Microservices & API Gateways
-├── Distributed Caching (Redis)
-├── Command Query Responsibility Segregation (CQRS)
-├── Event Sourcing & Change Data Capture (CDC Pipelines)
-└── Web3 DApps & Solidity Smart Contracts
+### 🌐 Backend Systems
+✔ REST APIs  
+✔ Authentication & Authorization  
+✔ Payment Gateways  
+✔ Multi-Tenant SaaS  
+✔ Redis Caching  
+✔ PostgreSQL  
+✔ MongoDB  
+✔ Spring Boot APIs  
+✔ FastAPI Services  
 
-```
+### ⚡ Distributed Systems
+✔ Apache Kafka  
+✔ RabbitMQ  
+✔ Event-Driven Architecture  
+✔ CQRS  
+✔ Event Sourcing  
+✔ Change Data Capture (CDC)  
+✔ Incremental Data Export  
+✔ Sidecar Pattern  
+
+### 🤖 Artificial Intelligence
+✔ LLM Applications  
+✔ OpenAI API  
+✔ Gemini API  
+✔ Ollama  
+✔ Llama 3.2  
+✔ Prompt Routing  
+✔ Prompt Engineering  
+✔ AI Chatbots  
+✔ Structured Output Fine-Tuning  
+✔ Intent Classification  
+✔ Reinforcement Learning  
+✔ NLP  
+
+### ⛓️ Blockchain
+✔ ERC20 Tokens  
+✔ ERC721 NFTs  
+✔ DAO Governance  
+✔ DEX  
+✔ Chainlink CCIP  
+✔ Omnichain Asset Bridge  
+✔ Upgradeable Smart Contracts  
+✔ Treasury Management  
+✔ NFT Launchpad  
+✔ Smart Contract Testing  
+✔ Gas Optimization  
+✔ Solidity  
+✔ Hardhat  
+✔ Foundry  
+
+### 📊 Data Engineering
+✔ Hadoop  
+✔ Apache Flink  
+✔ Kafka  
+✔ ETL Pipelines  
+✔ Delta Lake  
+✔ DuckDB  
+✔ Data Warehousing  
+✔ CDC Pipelines  
+✔ Search Indexing  
+
+### 🛠️ DevOps & Infrastructure
+✔ Docker  
+✔ Git  
+✔ GitHub  
+✔ Linux  
+✔ Logging & Monitoring  
+✔ CI/CD Ready Applications  
+✔ Containerized Deployments  
+
+---
+
+# 🏆 Global Placement Program Highlights
+
+Over the past year, I have successfully completed **40+ industry-grade software engineering projects** covering backend development, AI, blockchain, distributed systems, DevOps, and data engineering.
+
+### 🚀 Technologies & Architectures Worked On
+- Event-Driven Architecture (Kafka & RabbitMQ)
+- Multi-Tenant SaaS
+- Payment Gateway Systems
+- Redis Cache-Aside Pattern
+- CQRS & Event Sourcing
+- Change Data Capture (CDC)
+- Data Lakehouse
+- AI Chatbots
+- LLM Prompt Routing
+- Fine-Tuning Llama Models
+- Chrome Extensions (Manifest V3)
+- Reinforcement Learning
+- Omnichain Blockchain Applications
+- DAO Governance
+- NFT Launchpads
+- Smart Contract Testing
+- Upgradeable Contracts (UUPS)
+- PKI-Based Authentication
+- Docker Sidecar Pattern
+- Hadoop Analytics Pipelines
+- Apache Flink Streaming
 
 ---
 
@@ -167,10 +257,17 @@
 
 ---
 
-## 🌱 Currently Mastering
-- 🏗️ Advanced System Design (High Availability & Scalability)
-- ☁️ Cloud Computing & Core Infrastructure
-- ☸️ Container Orchestration with Kubernetes
+## 🌱 Currently Exploring
+
+🏗️ Advanced System Design  
+☁️ Cloud Native Applications  
+☸️ Kubernetes  
+🤖 AI Agents  
+🧠 LLM Engineering  
+⚡ High Performance Backend Systems  
+📡 Distributed Computing  
+🔗 Blockchain Infrastructure  
+🚀 Microservices Architecture  
 
 ---
 
@@ -190,4 +287,3 @@
 ## 💬 Quote
 
 > "I don't just write code. I build scalable solutions that solve real-world problems."
-
