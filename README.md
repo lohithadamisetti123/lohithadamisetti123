@@ -150,9 +150,6 @@
 
 ## 📊 Software Engineering Deep-Dive
 
-
-```
-
 💡 Architecture & Advanced Paradigms
 ├── Event Driven Architecture (Kafka, RabbitMQ)
 ├── Microservices & API Gateways
@@ -161,7 +158,6 @@
 ├── Event Sourcing & Change Data Capture (CDC Pipelines)
 └── Web3 DApps & Solidity Smart Contracts
 
-```
 
 ---
 
@@ -195,7 +191,7 @@
 
 <p align="left">
   <a href="mailto:damisettilohitha@gmail.com"><img src="https://img.shields.io/badge/Email-Gmail-red?style=for-the-badge&logo=gmail" alt="Gmail" /></a>
-  <a href="https://linkedin.com/in/lohitha-damisetti"><img src="https://img.shields.io/badge/LinkedIn-Profile-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn" /></a>
+  <a href="https://www.linkedin.com/in/lohitha-damisetti-2bb36829a/"><img src="https://img.shields.io/badge/LinkedIn-Profile-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn" /></a>
   <a href="https://leetcode.com/u/damisettilohitha/"><img src="https://img.shields.io/badge/LeetCode-Profile-orange?style=for-the-badge&logo=leetcode" alt="LeetCode" /></a>
   <a href="https://www.codechef.com/users/lohitha05"><img src="https://img.shields.io/badge/CodeChef-Profile-brown?style=for-the-badge&logo=codechef" alt="CodeChef" /></a>
   <a href="https://www.geeksforgeeks.org/user/damisetti87j6/"><img src="https://img.shields.io/badge/GeeksforGeeks-Profile-green?style=for-the-badge&logo=geeksforgeeks" alt="GeeksforGeeks" /></a>
