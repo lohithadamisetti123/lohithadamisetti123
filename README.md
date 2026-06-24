@@ -1,9 +1,9 @@
 <h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=3500&pause=1000&color=39FF14&center=true&vCenter=true&width=700&lines=Hi+👋,+I'm+Lohitha+Damisetti;Aspiring+Software+Developer;Full+Stack+%26+Backend+Engineer;AI+%26+Data+Science+Enthusiast" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=3000&pause=800&color=00FFCC&background=14141600&center=true&vCenter=true&width=800&height=50&lines=Hi+👋,+I'm+Lohitha+Damisetti🛸;Full+Stack+%26+Backend+Engineer+⚡;AI+%26+Data+Science+Enthusiast+🧠;Building+Scalable+Software+Solutions+🚀" alt="Typing SVG" />
 </h1>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=lohithadamisetti123&color=blueviolet&style=flat-square" alt="Visitor Counter" />
+  <img src="https://komarev.com/ghpvc/?username=lohithadamisetti123&color=00FFCC&style=flat-square" alt="Visitor Counter" />
 </p>
 
 <p align="center">
