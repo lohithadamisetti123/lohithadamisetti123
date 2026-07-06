@@ -240,16 +240,14 @@ Over the past year, I have successfully completed **40+ industry-grade software 
 
 ## 📈 GitHub Metrics
 
-## 🔥 GitHub Streak Stats
-
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=lohithadamisetti123&theme=tokyonight" alt="GitHub Streak" />
+  <img src="https://github-readme-stats.vercel.app/api?username=lohithadamisetti123&show_icons=true&theme=tokyonight" alt="Lohitha's GitHub Stats" width="48%" />
+
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=lohithadamisetti123&layout=compact&theme=tokyonight" alt="Top Languages" width="48%" />
 </p>
 
-## 🏆 GitHub Trophies
-
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=lohithadamisetti123&theme=tokyonight&no-frame=true&row=1&column=7" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=lohithadamisetti123&theme=tokyonight" alt="GitHub Streak" width="97%" />
 </p>
 
 ## 📊 Activity Graph
