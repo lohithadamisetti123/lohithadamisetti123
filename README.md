@@ -240,11 +240,9 @@ Over the past year, I have successfully completed **40+ industry-grade software 
 
 ## 📈 GitHub Metrics
 
-<p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=lohithadamisetti123&show_icons=true&theme=tokyonight&cache_seconds=1800" />
+![Lohitha's GitHub Stats](https://github-readme-stats.vercel.app/api?username=lohithadamisetti123&show_icons=true&theme=tokyonight)
 
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lohithadamisetti123&layout=compact&theme=tokyonight&langs_count=8" />
-</p>
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=lohithadamisetti123&layout=compact&theme=tokyonight)
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=lohithadamisetti123&theme=tokyonight" alt="GitHub Streak" width="97%" />
 </p>
