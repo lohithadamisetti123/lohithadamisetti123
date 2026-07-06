@@ -1,337 +1,295 @@
-# <div align="center">
+<h1 align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=3000&pause=800&color=00FFCC&background=14141600&center=true&vCenter=true&width=800&height=50&lines=Hi+👋,+I'm+Lohitha+Damisetti🛸;Full+Stack+%26+Backend+Engineer+⚡;AI+%26+Data+Science+Enthusiast+🧠;Building+Scalable+Software+Solutions+🚀" alt="Typing SVG" />
+</h1>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=32&duration=3000&pause=1000&color=7AA2F7&center=true&vCenter=true&multiline=true&repeat=true&width=1000&height=120&lines=Hi+%F0%9F%91%8B+I'm+Lohitha+Damisetti;Full+Stack+Developer+%7C+Backend+Engineer;AI+%26+Data+Science+Enthusiast;Blockchain+Developer+%7C+Software+Engineer;Building+Scalable+Systems+%F0%9F%9A%80" alt="Typing SVG" />
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=lohithadamisetti123&color=00FFCC&style=flat-square" alt="Visitor Counter" />
+</p>
 
-</div>
-
-<div align="center">
-
-<img src="https://komarev.com/ghpvc/?username=lohithadamisetti123&label=Profile%20Views&color=7aa2f7&style=for-the-badge" />
-
-<img src="https://img.shields.io/github/followers/lohithadamisetti123?style=for-the-badge&logo=github&label=Followers&color=7aa2f7"/>
-
-<img src="https://img.shields.io/github/stars/lohithadamisetti123?style=for-the-badge&logo=github&label=Stars&color=bb9af7"/>
-
-</div>
+<p align="center">
+  <strong>Building scalable applications, AI-powered solutions, backend systems, and modern web applications.</strong>
+</p>
 
 ---
 
-# <div align="center">🚀 Senior Software Engineering Mindset • Building Production-Grade Systems</div>
+## 🚀 About Me
 
-<div align="center">
-
-### Full Stack Developer • Backend Engineer • AI & Data Science Enthusiast • Software Engineering Student
-
-</div>
-
-Passionate software engineer focused on building **scalable backend systems**, **AI-powered applications**, **distributed architectures**, and **production-grade software platforms**. I enjoy solving complex engineering problems, architecting high-performance systems, and contributing to impactful technology products.
+- 🎓 **Education:** B.Tech Data Science Student (2023-2027) at Aditya College of Engineering and Technology
+- 💻 **Focus:** Passionate Software Developer focused on solving real-world problems through technology.
+- 📈 **Philosophy:** Strong believer in continuous learning and building production-ready applications.
 
 ---
 
-# 🧠 About Me
+## 🏆 Competitive Programming & Highlights
 
-```yaml
-Name: Lohitha Damisetti
-Education: B.Tech in Data Science (2023–2027)
-College: Aditya College of Engineering and Technology
-CGPA: 9.13
-Current Focus:
-  - Full Stack Engineering
-  - Backend Architecture
-  - Artificial Intelligence
-  - Blockchain Systems
-  - Data Engineering
-  - Distributed Systems
+<p align="center">
+  <img src="https://leetcard.jacoblin.cool/damisettilohitha?theme=dark&font=Fira%20Code" alt="LeetCode Stats" width="400"/>
+</p>
 
-Engineering Philosophy:
-  "Build systems that scale, code that lasts,
-   and products that create impact."
-
-Career Goal:
-  Become a world-class Software Engineer
-  building large-scale systems and AI products.
-```
+- ⭐ **9.13 CGPA** | Department Topper
+- ⭐ **450+** LeetCode Problems Solved
+- ⭐ **500+** CodeChef Problems Solved
+- ⭐ **250+** GeeksforGeeks Problems Solved
+- ⭐ **15+** HackerRank Badges
+- ⭐ **Hackathons:** Cleared Adobe Hackathon Round 1 & HackerEarth Hackathon Round 1
+- ⭐ **Leadership:** Team Lead for *Dream Vacation Planner Project* | Frontend Lead for *Tech360 Portal*
 
 ---
 
-# 🏆 Competitive Programming & Achievements
+# 💼 Featured Projects
 
-<div align="center">
-
-| Achievement              |       Statistics       |
-| :----------------------- | :--------------------: |
-| 🥇 Department Topper     |        9.13 CGPA       |
-| 💻 LeetCode              |      450+ Problems     |
-| ⚡ CodeChef               |      500+ Problems     |
-| 🔥 GeeksforGeeks         |      250+ Problems     |
-| 🏅 HackerRank            |       15+ Badges       |
-| 🚀 Projects Built        |           40+          |
-| 🏆 Adobe Hackathon       |     Cleared Round 1    |
-| 🏆 HackerEarth Hackathon |     Cleared Round 1    |
-| 👨‍💼 Team Lead          | Dream Vacation Planner |
-| ⚙️ Frontend Lead         |     Tech360 Portal     |
-| 💼 Internship            |      Technical Hub     |
-
-</div>
-
----
-
-# 🚀 Featured Engineering Projects
-
-<div align="center">
-
-| Project                               | Description                                                                      | Tech Stack                  |
-| ------------------------------------- | -------------------------------------------------------------------------------- | --------------------------- |
-| 🤖 **PolicyGuard AI**                 | AI-powered privacy risk analyzer using LLMs, NLP and intent classification       | FastAPI, Llama, OpenAI, NLP |
-| 🏢 **Multi-Tenant SaaS Platform**     | Enterprise-grade multi-tenant architecture with RBAC and subscription management | Node.js, Redis, PostgreSQL  |
-| 💳 **Payment Gateway System**         | Secure distributed payment infrastructure with encryption and microservices      | Java, Spring Boot, JWT      |
-| 🌐 **Tech360 Portal**                 | Real-time collaborative educational platform                                     | React, Node.js, MongoDB     |
-| ✈️ **Dream Vacation Planner**         | AI-powered trip planning and recommendation system                               | AI, FastAPI, React          |
-| 🎓 **Event & Placement Portal**       | Real-time event tracking and placement analytics platform                        | MERN Stack                  |
-| 🤝 **College Collaboration Platform** | Live project collaboration ecosystem for students                                | React, Socket.io, Node.js   |
-
-</div>
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🔐 PolicyGuard AI</h3>
+      <p>An AI-powered Privacy Risk Analyzer that automatically analyzes Privacy Policies and Terms & Conditions for desktop, web, and mobile applications.</p>
+      <p>
+        <code>React</code> <code>React Native</code> <code>Electron</code> <code>Node.js</code> <code>MongoDB</code> <code>OpenAI API</code> <code>Docker</code>
+      </p>
+      ✔ AI Risk Detection & Privacy Score Generation<br/>
+      ✔ Real-time Desktop Monitoring & Alerts
+    </td>
+    <td width="50%" valign="top">
+      <h3>🏢 Multi-Tenant SaaS Platform</h3>
+      <p>A production-ready SaaS platform supporting multiple organizations with secure tenant isolation, RBAC, and team management.</p>
+      <p>
+        <code>Node.js</code> <code>Express.js</code> <code>React</code> <code>PostgreSQL</code> <code>Docker</code> <code>JWT</code>
+      </p>
+      ✔ Secure Tenant Isolation & Granular RBAC<br/>
+      ✔ Real-time Task Tracking & Project Management
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>💳 Payment Gateway System</h3>
+      <p>A complete financial payment gateway supporting hosted checkouts, merchant dashboards, UPI, and card payments.</p>
+      <p>
+        <code>Spring Boot</code> <code>Node.js</code> <code>React</code> <code>PostgreSQL</code> <code>Docker</code>
+      </p>
+      ✔ Merchant Dashboard & Order Management<br/>
+      ✔ Secure Hosted Checkout Flow
+    </td>
+    <td width="50%" valign="top">
+      <h3>🌐 Tech360 Portal</h3>
+      <p>Collaborated in a team of six to build a unified hub empowering students and developers through real-time career resources.</p>
+      <p>
+        <code>HTML5</code> <code>CSS3</code> <code>JavaScript</code> <code>Bootstrap</code> <code>Contest Tracker API</code>
+      </p>
+      ✔ Live Contest Tracking & DSA Learning Platform<br/>
+      ✔ Dynamic Resume Builder & Job Drive Modules
+    </td>
+  </tr>
+</table>
 
 ---
 
 # ⚡ Engineering Stack
 
-## 💻 Programming Languages
-
+### 💻 Languages
 <p>
-<img src="https://skillicons.dev/icons?i=c,cpp,java,python,js,mysql" />
+  <img src="https://skillicons.dev/icons?i=cpp,java,python,javascript,go,solidity,html,css" />
+</p>
+
+### 🎨 Frontend
+<p>
+  <img src="https://skillicons.dev/icons?i=react,nextjs,electron,tailwind,bootstrap,vue,vite" />
+</p>
+
+### ⚙️ Backend
+<p>
+  <img src="https://skillicons.dev/icons?i=nodejs,express,spring,fastapi" />
+</p>
+
+### 🗄️ Database & Caching
+<p>
+  <img src="https://skillicons.dev/icons?i=mongodb,mysql,postgres,redis" />
+</p>
+
+### ☁️ Cloud & DevOps
+<p>
+  <img src="https://skillicons.dev/icons?i=docker,git,github,linux,aws" />
+</p>
+
+### 🤖 Artificial Intelligence
+<p>
+  OpenAI API • Gemini API • Ollama • Llama 3.2 • Prompt Engineering • NLP • Deep Learning • Fine-Tuning • Structured Output • AI Agents • Intent Classification • AI Chatbots
+</p>
+
+### ⛓️ Blockchain
+<p>
+  Ethereum • Solidity • Hardhat • Foundry • Ethers.js • OpenZeppelin • Chainlink CCIP • ERC20 • ERC721 • DAO • NFT • DEX • UUPS Proxy • Omnichain Applications • Smart Contracts • Gas Optimization
+</p>
+
+### 📊 Data Engineering
+<p>
+  Apache Kafka • RabbitMQ • Hadoop • Delta Lake • DuckDB • CDC Pipelines • ETL • Data Warehousing • Apache Flink • Event Streaming
+</p>
+
+### 🔐 Security & Access Control
+<p>
+  JWT • RSA Encryption • PKI Authentication • Role Based Access Control (RBAC) • Email Security • OAuth • Authentication • Authorization
 </p>
 
 ---
 
-## 🎨 Frontend
+# 🚀 Engineering Experience
 
-<p>
-<img src="https://skillicons.dev/icons?i=html,css,js,react,nextjs,tailwind,bootstrap,vite" />
+Throughout my software engineering journey, I have designed and implemented production-ready systems across multiple domains.
+
+### 🌐 Backend Systems
+✔ REST APIs  
+✔ Authentication & Authorization  
+✔ Payment Gateways  
+✔ Multi-Tenant SaaS  
+✔ Redis Caching  
+✔ PostgreSQL  
+✔ MongoDB  
+✔ Spring Boot APIs  
+✔ FastAPI Services  
+
+### ⚡ Distributed Systems
+✔ Apache Kafka  
+✔ RabbitMQ  
+✔ Event-Driven Architecture  
+✔ CQRS  
+✔ Event Sourcing  
+✔ Change Data Capture (CDC)  
+✔ Incremental Data Export  
+✔ Sidecar Pattern  
+
+### 🤖 Artificial Intelligence
+✔ LLM Applications  
+✔ OpenAI API  
+✔ Gemini API  
+✔ Ollama  
+✔ Llama 3.2  
+✔ Prompt Routing  
+✔ Prompt Engineering  
+✔ AI Chatbots  
+✔ Structured Output Fine-Tuning  
+✔ Intent Classification  
+✔ Reinforcement Learning  
+✔ NLP  
+
+### ⛓️ Blockchain
+✔ ERC20 Tokens  
+✔ ERC721 NFTs  
+✔ DAO Governance  
+✔ DEX  
+✔ Chainlink CCIP  
+✔ Omnichain Asset Bridge  
+✔ Upgradeable Smart Contracts  
+✔ Treasury Management  
+✔ NFT Launchpad  
+✔ Smart Contract Testing  
+✔ Gas Optimization  
+✔ Solidity  
+✔ Hardhat  
+✔ Foundry  
+
+### 📊 Data Engineering
+✔ Hadoop  
+✔ Apache Flink  
+✔ Kafka  
+✔ ETL Pipelines  
+✔ Delta Lake  
+✔ DuckDB  
+✔ Data Warehousing  
+✔ CDC Pipelines  
+✔ Search Indexing  
+
+### 🛠️ DevOps & Infrastructure
+✔ Docker  
+✔ Git  
+✔ GitHub  
+✔ Linux  
+✔ Logging & Monitoring  
+✔ CI/CD Ready Applications  
+✔ Containerized Deployments  
+
+---
+
+# 🏆 Global Placement Program Highlights
+
+Over the past year, I have successfully completed **40+ industry-grade software engineering projects** covering backend development, AI, blockchain, distributed systems, DevOps, and data engineering.
+
+### 🚀 Technologies & Architectures Worked On
+- Event-Driven Architecture (Kafka & RabbitMQ)
+- Multi-Tenant SaaS
+- Payment Gateway Systems
+- Redis Cache-Aside Pattern
+- CQRS & Event Sourcing
+- Change Data Capture (CDC)
+- Data Lakehouse
+- AI Chatbots
+- LLM Prompt Routing
+- Fine-Tuning Llama Models
+- Chrome Extensions (Manifest V3)
+- Reinforcement Learning
+- Omnichain Blockchain Applications
+- DAO Governance
+- NFT Launchpads
+- Smart Contract Testing
+- Upgradeable Contracts (UUPS)
+- PKI-Based Authentication
+- Docker Sidecar Pattern
+- Hadoop Analytics Pipelines
+- Apache Flink Streaming
+
+---
+
+## 📈 GitHub Metrics
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=lohithadamisetti123&show_icons=true&theme=tokyonight" alt="Lohitha's GitHub Stats" width="48%" />
+
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=lohithadamisetti123&layout=compact&theme=tokyonight" alt="Top Languages" width="48%" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=lohithadamisetti123&theme=tokyonight" alt="GitHub Streak" width="97%" />
+</p>
+
+## 📊 Activity Graph
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=lohithadamisetti123&theme=tokyo-night" />
+
+### 🐍 Contribution Activity Graph
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/lohithadamisetti123/lohithadamisetti123/output/github-contribution-grid-snake.svg" alt="Snake Contribution Graph" width="100%" />
 </p>
 
 ---
 
-## ⚙️ Backend
+## 🌱 Currently Exploring
 
-<p>
-<img src="https://skillicons.dev/icons?i=nodejs,express,spring,fastapi" />
+🏗️ Advanced System Design  
+☁️ Cloud Native Applications  
+☸️ Kubernetes  
+🤖 AI Agents  
+🧠 LLM Engineering  
+⚡ High Performance Backend Systems  
+📡 Distributed Computing  
+🔗 Blockchain Infrastructure  
+🚀 Microservices Architecture  
+
+---
+
+## 🤝 Let's Connect
+
+<p align="left">
+  <a href="mailto:damisettilohitha@gmail.com"><img src="https://img.shields.io/badge/Email-Gmail-red?style=for-the-badge&logo=gmail" alt="Gmail" /></a>
+  <a href="https://www.linkedin.com/in/lohitha-damisetti-2bb36829a/"><img src="https://img.shields.io/badge/LinkedIn-Profile-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn" /></a>
+  <a href="https://leetcode.com/u/damisettilohitha/"><img src="https://img.shields.io/badge/LeetCode-Profile-orange?style=for-the-badge&logo=leetcode" alt="LeetCode" /></a>
+  <a href="https://www.codechef.com/users/lohitha05"><img src="https://img.shields.io/badge/CodeChef-Profile-brown?style=for-the-badge&logo=codechef" alt="CodeChef" /></a>
+  <a href="https://www.geeksforgeeks.org/user/damisetti87j6/"><img src="https://img.shields.io/badge/GeeksforGeeks-Profile-green?style=for-the-badge&logo=geeksforgeeks" alt="GeeksforGeeks" /></a>
+  <a href="https://www.hackerrank.com/damisettilohitha"><img src="https://img.shields.io/badge/HackerRank-Profile-darkgreen?style=for-the-badge&logo=hackerrank" alt="HackerRank" /></a>
 </p>
 
 ---
 
-## 🗄️ Databases
+## 💬 Quote
 
-<p>
-<img src="https://skillicons.dev/icons?i=mongodb,mysql,postgresql,redis" />
-</p>
-
----
-
-## ☁️ Cloud & DevOps
-
-<p>
-<img src="https://skillicons.dev/icons?i=docker,git,github,linux,aws" />
-</p>
-
-* CI/CD Pipelines
-* Container Orchestration
-* Infrastructure Automation
-* Production Deployment
-
----
-
-## 🤖 Artificial Intelligence
-
-* OpenAI API
-* Gemini API
-* Ollama
-* Llama 3.2
-* Prompt Engineering
-* NLP
-* AI Agents
-* Deep Learning
-* Fine-Tuning
-* Intent Classification
-* AI Chatbots
-
----
-
-## ⛓️ Blockchain Engineering
-
-* Solidity
-* Ethereum
-* Hardhat
-* Foundry
-* Ethers.js
-* OpenZeppelin
-* Chainlink CCIP
-* ERC20
-* ERC721
-* NFT
-* DAO
-* DEX
-* UUPS Proxy
-* Smart Contracts
-
----
-
-## 📊 Data Engineering
-
-* Apache Kafka
-* RabbitMQ
-* Hadoop
-* Apache Flink
-* Delta Lake
-* DuckDB
-* ETL Pipelines
-* CDC Pipelines
-* Data Warehousing
-* Event Streaming
-
----
-
-## 🔐 Security Engineering
-
-* JWT
-* OAuth2
-* RSA Encryption
-* PKI Authentication
-* RBAC
-* Authentication
-* Authorization
-* Secure API Design
-
----
-
-# 🏗️ Engineering Experience
-
-### 💼 Full Stack Engineering Intern — Technical Hub
-
-✔ Built scalable web applications
-
-✔ Developed production-grade REST APIs
-
-✔ Implemented authentication and authorization systems
-
-✔ Worked with distributed architectures
-
-✔ Applied DevOps practices and CI/CD pipelines
-
-✔ Developed real-world full-stack applications
-
----
-
-### 🚀 Software Engineering Experience
-
-* Backend Systems Design
-* Distributed Systems
-* AI Engineering
-* Blockchain Development
-* Event-Driven Architectures
-* Microservices
-* API Design
-* Data Engineering
-* DevOps Engineering
-* Cloud Infrastructure
-
----
-
-# 🌟 Professional Highlights
-
-* 🏆 Department Topper with **9.13 CGPA**
-* 🚀 Built **40+ industry-grade projects**
-* 💻 Solved **1200+ competitive programming problems**
-* 🤖 Specialized in **AI + Backend Engineering**
-* ⚡ Experience with **Distributed Systems**
-* ⛓️ Developed **Blockchain Applications**
-* ☁️ Worked with **Cloud & DevOps Workflows**
-* 📊 Experience building **Data Pipelines**
-* 🔐 Focused on **Production Security Architectures**
-
----
-
-# 📈 GitHub Analytics
-
-<div align="center">
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=lohithadamisetti123&show_icons=true&theme=tokyonight&hide_border=true"/>
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lohithadamisetti123&layout=compact&theme=tokyonight&hide_border=true"/>
-
-</div>
-
----
-
-<div align="center">
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=lohithadamisetti123&theme=tokyonight&hide_border=true"/>
-
-</div>
-
----
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=lohithadamisetti123&theme=tokyo-night&hide_border=true"/>
-
-</div>
-
----
-
-# 🐍 Contribution Snake
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg" />
-
-</div>
-
----
-
-# 🔬 Currently Exploring
-
-* Agentic AI Systems
-* Multi-Agent Architectures
-* Retrieval Augmented Generation (RAG)
-* Large Language Models
-* Distributed Systems
-* Event Streaming Architectures
-* Kubernetes
-* Advanced Blockchain Protocols
-* High Performance Backend Systems
-* AI Infrastructure Engineering
-
----
-
-# 🤝 Let's Connect
-
-<div align="center">
-
-<a href="mailto:damisettilohitha@gmail.com">
-<img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
-</a>
-
-<a href="https://www.linkedin.com/in/lohitha-damisetti-2bb36829a/">
-<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
-
-<a href="https://github.com/lohithadamisetti123">
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github"/>
-</a>
-
-<a href="https://leetcode.com/u/damisettilohitha/">
-<img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black"/>
-</a>
-
-</div>
-
----
-
-<div align="center">
-
-### 💡 *"First, solve the problem. Then, engineer the solution to scale."*
-
-### 🚀 Building the future, one commit at a time.
-
-</div>
+> "I don't just write code. I build scalable solutions that solve real-world problems."
