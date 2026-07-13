@@ -28,7 +28,7 @@
 <tr>
 <td width="55%" valign="top" style="border: none; background: none;">
 
-### 👨‍💻 Biography
+### 👨‍💻 Who am I?
 
 * 🎓 **B.Tech in Data Science (2023–2027)** • Aditya College of Engineering and Technology
 * 💻 **Full Stack & Backend Developer** passionate about building scalable applications and AI-powered solutions.
@@ -50,7 +50,7 @@
 
 <br/><br/>
 
-<img src="./assets/Create_a_6second_premium_cinematic_looping_a.gif" width="100%" alt="Coding Animation"/>
+<img src="./assets/Create_a_6second_premium_cinematic_looping_a.gif" width="100%" height ="90%" alt="Coding Animation"/>
 
 </td>
 </tr>
