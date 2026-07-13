@@ -32,8 +32,7 @@
         <li>🌱 <strong>Currently Exploring:</strong> Advanced System Design, Cloud Native Applications, Kubernetes, AI Agents, LLM Engineering, High Performance Backend Systems, Distributed Computing, Blockchain Infrastructure, Microservices Architecture</li>
         <li>💬 <strong>Quote:</strong> <em>"I don't just write code. I build scalable solutions that solve real-world problems."</em></li>
       </ul>
-      
-      <h2>🏆 Competitive Programming & Highlights</h2>
+        <h2>🏆 Competitive Programming & Highlights</h2>
       <ul>
         <li>⭐ <strong>9.13 CGPA</strong> | Department Topper</li>
         <li>⭐ <strong>450+</strong> LeetCode Problems Solved</li>
@@ -51,6 +50,7 @@
         <img src="https://leetcard.jacoblin.cool/damisettilohitha?theme=dark&font=Fira%20Code" alt="LeetCode Stats" width="100%"/>
       </a>
     </td>
+      
   </tr>
 </table>
 
