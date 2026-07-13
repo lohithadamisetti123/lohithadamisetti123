@@ -2,9 +2,10 @@
 <div align="center">
 <p align="center">
   <a href="https://github.com/damisettilohitha">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=00FFCC&background=1f232a&center=true&vCenter=true&width=1000&height=120&lines=Hi+👋,+I'm+Lohitha+Damisetti🛸;Full+Stack+%26+Backend+Engineer+⚡;AI+%26+Data+Science+Enthusiast+🧠;Building+Scalable+Software+Solutions+🚀" alt="Lohitha's Tech Profile Banner" width="100%" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=1000&color=00FFCC&background=1f232a&center=true&vCenter=true&width=1000&height=120&lines=Hi+%F0%9F%91%8B%2C+I%27m+Lohitha+Damisetti+%F0%9F%9B%B8;Full+Stack+%26+Backend+Engineer+%E2%9A%A1;AI+%26+Data+Science+Enthusiast+%F0%9F%A7%A0;Building+Scalable+Software+Solutions+%F0%9F%9A%80" alt="Lohitha's Tech Profile Banner" width="100%" />
   </a>
 </p>
+  
   <h3><strong>Full Stack & Backend Engineer | AI & Data Science Enthusiast</strong></h3>
   <p><i>Building scalable applications, AI-powered solutions, backend systems, and modern web applications.</i></p>
 
