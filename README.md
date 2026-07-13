@@ -21,40 +21,66 @@
 <br/>
 
 <!-- ABOUT & MEDIA SECTION -->
+<!-- ================= ABOUT ME ================= -->
+
+<h2 align="center">🚀 About Me</h2>
+
 <table width="100%">
-  <tr>
-    <td width="60%" valign="top">
-      <h2>🚀 About Me & What I Do</h2>
-      <ul>
-        <li>🎓 <strong>Education:</strong> B.Tech Data Science (2023-2027) at Aditya College of Engineering and Technology</li>
-        <li>💻 <strong>Focus:</strong> Passionate Software Developer focused on solving real-world problems through technology.</li>
-        <li>📈 <strong>Philosophy:</strong> Strong believer in continuous learning and building production-ready applications.</li>
-        <li>🌱 <strong>Currently Exploring:</strong> Advanced System Design, Cloud Native Applications, Kubernetes, AI Agents, LLM Engineering, High Performance Backend Systems, Distributed Computing, Blockchain Infrastructure, Microservices Architecture</li>
-        <li>💬 <strong>Quote:</strong> <em>"I don't just write code. I build scalable solutions that solve real-world problems."</em></li>
-      </ul>
-        <h2>🏆 Competitive Programming & Highlights</h2>
-      <ul>
-        <li>⭐ <strong>9.13 CGPA</strong> | Department Topper</li>
-        <li>⭐ <strong>450+</strong> LeetCode Problems Solved</li>
-        <li>⭐ <strong>500+</strong> CodeChef Problems Solved</li>
-        <li>⭐ <strong>250+</strong> GeeksforGeeks Problems Solved</li>
-        <li>⭐ <strong>15+</strong> HackerRank Badges</li>
-        <li>⭐ <strong>Hackathons:</strong> Cleared Adobe Hackathon Round 1 & HackerEarth Hackathon Round 1</li>
-        <li>⭐ <strong>Leadership:</strong> Team Lead for <em>Dream Vacation Planner Project</em> | Frontend Lead for <em>Tech360 Portal</em></li>
-      </ul>
-    </td>
-    <td width="40%" align="center" valign="top">
-      <img src="assets/Create_a_6second_premium_cinematic_looping_a.gif" alt="Animated Avatar" width="100%" />
-      <br/><br/>
-   <h2 align="center">🏆 Competitive Programming</h2>
+<tr>
+
+<td width="58%" valign="top">
+
+### 👨‍💻 Who Am I?
+
+- 🎓 **B.Tech in Data Science (2023–2027)**  
+  Aditya College of Engineering and Technology
+
+- 💻 **Full Stack & Backend Developer** passionate about building scalable applications and AI-powered solutions.
+
+- 🚀 Currently building production-ready software using modern backend technologies and cloud infrastructure.
+
+- 🌱 Currently learning **System Design, AWS, Kubernetes, AI Agents, LLM Engineering, and High Performance Backend Systems.**
+
+- 📹 Tech Content Creator sharing development resources and programming knowledge.
+
+- 💬 **Quote**
+
+> *"I don't just write code. I build scalable solutions that solve real-world problems."*
+
+</td>
+
+<td width="42%" align="center">
+
+<img src="./assets/Create_a_6second_premium_cinematic_looping_a.gif" width="100%" alt="Coding Animation"/>
+
+</td>
+
+</tr>
+</table>
+
+---
+
+<!-- ================= COMPETITIVE PROGRAMMING ================= -->
+
+<h2 align="center">🏆 Competitive Programming</h2>
 
 <p align="center">
-  <a href="https://leetcode.com/u/damisettilohitha/">
-    <img src="https://leetcard.jacoblin.cool/damisettilohitha?theme=dark&font=Fira%20Code" width="420" alt="LeetCode Stats"/>
-  </a>
+
+⭐ **480+ LeetCode** &nbsp; • &nbsp;
+⭐ **500+ CodeChef** &nbsp; • &nbsp;
+⭐ **200+ GeeksforGeeks** &nbsp; • &nbsp;
+⭐ **20★ HackerRank**
+
 </p>
 
-<table align="center">
+<p align="center">
+<a href="https://leetcode.com/u/damisettilohitha/">
+<img src="https://leetcard.jacoblin.cool/damisettilohitha?theme=dark&font=Fira%20Code" width="420"/>
+</a>
+</p>
+
+<table width="100%">
+
 <tr>
 
 <td align="center" width="33%">
@@ -62,12 +88,14 @@
 ### 🟤 CodeChef
 
 <a href="https://www.codechef.com/users/lohitha05">
-<img src="https://img.shields.io/badge/500%2B_Problems-CodeChef-brown?style=for-the-badge&logo=codechef&logoColor=white"><br><br>
-
-⭐ **500+ Problems Solved**<br>
-🏅 Competitive Programmer<br>
-🔗 View Profile
+<img src="https://img.shields.io/badge/500%2B%20Problems-CodeChef-5B4638?style=for-the-badge&logo=codechef&logoColor=white"/>
 </a>
+
+<br><br>
+
+**🏅 Competitive Programmer**
+
+⭐ 500+ Problems Solved
 
 </td>
 
@@ -76,12 +104,14 @@
 ### 🟢 GeeksforGeeks
 
 <a href="https://www.geeksforgeeks.org/user/damisetti87j6/">
-<img src="https://img.shields.io/badge/200%2B_Problems-GeeksforGeeks-2F8D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white"><br><br>
-
-💻 **200+ Problems Solved**<br>
-📈 DSA Practice<br>
-🔗 View Profile
+<img src="https://img.shields.io/badge/200%2B%20Problems-GeeksforGeeks-2F8D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white"/>
 </a>
+
+<br><br>
+
+**💻 DSA Practice**
+
+⭐ 200+ Problems Solved
 
 </td>
 
@@ -90,22 +120,31 @@
 ### 🟩 HackerRank
 
 <a href="https://www.hackerrank.com/damisettilohitha">
-<img src="https://img.shields.io/badge/20_Stars_|_7_Badges-HackerRank-00EA64?style=for-the-badge&logo=hackerrank&logoColor=white"><br><br>
-
-⭐ **20 Stars**<br>
-🏅 **7 Badges**<br>
-🔗 View Profile
+<img src="https://img.shields.io/badge/20★%20|%207%20Badges-HackerRank-00EA64?style=for-the-badge&logo=hackerrank&logoColor=white"/>
 </a>
+
+<br><br>
+
+**🏆 Problem Solving**
+
+⭐ 20 Stars • 7 Badges
 
 </td>
 
 </tr>
-</table>
-    </td>
-      
-  </tr>
+
 </table>
 
+---
+
+### 🏅 Achievements
+
+- 🥇 **Top 100 Team** — Myntra HackerRamp WeForShe 2026
+- 💯 **Department Topper**
+- 🏆 Cleared **Adobe Hackathon Round 1**
+- 🏆 Cleared **HackerEarth Hackathon Round 1**
+- 👨‍💼 Team Lead — **Dream Vacation Planner**
+- 💻 Frontend Lead — **Tech360 Portal**
 <!-- SKILLS SHOWCASE -->
 <h2>⚡ Tech Stack & Engineering Arsenal</h2>
 
