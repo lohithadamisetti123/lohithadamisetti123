@@ -50,7 +50,7 @@
 
 <br/><br/>
 
-<img src="./assets/Create_a_6second_premium_cinematic_looping_a.gif" width="100%" height ="90%" alt="Coding Animation"/>
+<img src="./assets/Create_a_6second_premium_cinematic_looping_a.gif" width="100%" height ="100%" alt="Coding Animation"/>
 
 </td>
 </tr>
