@@ -46,9 +46,6 @@
 
 <td width="45%" align="center" valign="middle" style="border: none; background: none;">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=61AFEF&center=true&vCenter=true&width=380&lines=Data+Science+Student;Full+Stack+Developer;AI+Automation+Engineer;Open+Source+Contributor" alt="Typing SVG" />
-
-<br/><br/>
 
 <img src="./assets/Create_a_6second_premium_cinematic_looping_a.gif" height="350" alt="Coding Animation"/>
 
