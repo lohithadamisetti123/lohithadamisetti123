@@ -1,9 +1,15 @@
 <!-- HERO SECTION -->
 <div align="center">
 <div align="center">
-  <a href="https://github.com/damisettilohitha">
-    <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=21&height=180&section=header&text=LOHITHA%20DAMISETTI&fontSize=42&fontColor=00FFCC&animation=twinkling&theme=dark" width="100%" />
-  </a>
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td align="center" style="background-image: url('https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=2&height=220&section=header&theme=dark'); background-size: cover; background-position: center; border: none; padding: 40px 0;">
+        <h1 align="center" style="font-family: 'Fira Code', monospace; font-size: 42px; color: #00FFCC; letter-spacing: 3px; margin: 0; text-shadow: 0 0 10px rgba(0,255,204,0.6);">
+          LOHITHA DAMISETTI
+        </h1>
+      </td>
+    </tr>
+  </table>
 </div>
   
   <h3><strong>Full Stack & Backend Engineer | AI & Data Science Enthusiast</strong></h3>
