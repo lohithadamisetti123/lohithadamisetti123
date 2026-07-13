@@ -47,8 +47,21 @@
       <img src="assets/Create_a_6second_premium_cinematic_looping_a.gif" alt="Animated Avatar" width="100%" />
       <br/><br/>
       <a href="https://leetcode.com/u/damisettilohitha/">
-        <img src="https://leetcard.jacoblin.cool/damisettilohitha?theme=dark&font=Fira%20Code" alt="LeetCode Stats" width="100%"/>
-      </a>
+<p align="center">
+
+<img src="./Assets/leetcode-card.svg" width="48%" />
+
+<img src="./Assets/codechef-card.svg" width="48%" />
+
+</p>
+
+<p align="center">
+
+<img src="./Assets/gfg-card.svg" width="48%" />
+
+<img src="./Assets/hackerrank-card.svg" width="48%" />
+
+</p>      </a>
     </td>
       
   </tr>
