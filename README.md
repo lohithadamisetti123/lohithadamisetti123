@@ -44,7 +44,7 @@
       </ul>
     </td>
     <td width="40%" align="center" valign="top">
-      <img src="./assets/output.gif" alt="Animated Avatar" width="100%" />
+      <img src="assets/Create_a_6second_premium_cinematic_looping_a.gif" alt="Animated Avatar" width="100%" />
       <br/><br/>
       <a href="https://leetcode.com/u/damisettilohitha/">
         <img src="https://leetcard.jacoblin.cool/damisettilohitha?theme=dark&font=Fira%20Code" alt="LeetCode Stats" width="100%"/>
