@@ -1,16 +1,6 @@
 <!-- HERO SECTION -->
 <div align="center">
-<div align="center">
-  <table width="100%" border="0" cellspacing="0" cellpadding="0">
-    <tr>
-      <td align="center" style="background-image: url('https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=2&height=220&section=header&theme=dark'); background-size: cover; background-position: center; border: none; padding: 40px 0;">
-        <h1 align="center" style="font-family: 'Fira Code', monospace; font-size: 42px; color: #00FFCC; letter-spacing: 3px; margin: 0; text-shadow: 0 0 10px rgba(0,255,204,0.6);">
-          LOHITHA DAMISETTI
-        </h1>
-      </td>
-    </tr>
-  </table>
-</div>
+ <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=3000&pause=800&color=00FFCC&background=14141600&center=true&vCenter=true&width=800&height=50&lines=Hi+👋,+I'm+Lohitha+Damisetti🛸;Full+Stack+%26+Backend+Engineer+⚡;AI+%26+Data+Science+Enthusiast+🧠;Building+Scalable+Software+Solutions+🚀" alt="Typing SVG" />
   
   <h3><strong>Full Stack & Backend Engineer | AI & Data Science Enthusiast</strong></h3>
   <p><i>Building scalable applications, AI-powered solutions, backend systems, and modern web applications.</i></p>
