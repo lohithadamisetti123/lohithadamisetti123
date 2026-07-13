@@ -61,11 +61,13 @@
 ---
 
 <!-- ================= COMPETITIVE PROGRAMMING ================= -->
+<!-- Section Header with subtle typing or glow effect layout -->
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=auto&height=120&section=header&text=🏆%20Competitive%20Programming&fontSize=30&animation=twinkling" width="100%"/>
+</div>
 
-<h2 align="center">🏆 Competitive Programming</h2>
-
+<!-- Animated Metrics Section -->
 <p align="center">
-  <img src="https://images.squarespace-cdn.com/content/v1/5b35244196d45543c72b2203/1545155913220-4N66R8858OQZTDV67J9M/loading+dots.gif" width="0" />
   <a href="https://leetcode.com/u/damisettilohitha/">
     <img src="https://img.shields.io/badge/LeetCode-480+%20Solved-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" />
   </a>
@@ -80,19 +82,23 @@
   </a>
 </p>
 
-<p align="center">
-  <a href="https://leetcode.com/u/damisettilohitha/">
-    <img src="https://leetcard.jacoblin.cool/damisettilohitha?theme=dark&font=Fira%20Code" width="450"/>
-  </a>
-</p>
+<!-- Left/Right Split: Working LeetCode Card alongside an Animated Developer Activity Asset -->
+<table align="center" width="100%" border="0">
+  <tr>
+    <td align="center" width="50%" style="border: none;">
+      <!-- Working LeetCode Component from image_35eea8.png -->
+      <a href="https://leetcode.com/u/damisettilohitha/">
+        <img src="https://leetcard.jacoblin.cool/damisettilohitha?theme=dark&font=Fira%20Code" width="400"/>
+      </a>
+    </td>
+    <td align="center" width="50%" style="border: none;">
+      <!-- Sleek, reliable animated programming illustration -->
+      <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdWw0eTZndXp4M3N4bWNwY3g1ZXg4N2VvOTZ5dG90MmI0bm9wYm9pZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/ZgWhzyA98COAs6msS6/giphy.gif" width="280"/>
+    </td>
+  </tr>
+</table>
 
-<br clear="both">
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=damisettilohitha&show_icons=true&theme=dark&hide_border=true&bg_color=0D1117" width="48%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=damisettilohitha&theme=dark&hide_border=true&background=0D1117" width="48%" />
-</p>
-
+<!-- Animated Footer Divider -->
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=60&section=footer" width="100%"/>
 </div>
