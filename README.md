@@ -46,22 +46,61 @@
     <td width="40%" align="center" valign="top">
       <img src="assets/Create_a_6second_premium_cinematic_looping_a.gif" alt="Animated Avatar" width="100%" />
       <br/><br/>
-      <a href="https://leetcode.com/u/damisettilohitha/">
+   <h2 align="center">🏆 Competitive Programming</h2>
+
 <p align="center">
-
-<img src="./Assets/leetcode-card.svg" width="48%" />
-
-<img src="./Assets/codechef-card.svg" width="48%" />
-
+  <a href="https://leetcode.com/u/damisettilohitha/">
+    <img src="https://leetcard.jacoblin.cool/damisettilohitha?theme=dark&font=Fira%20Code" width="420" alt="LeetCode Stats"/>
+  </a>
 </p>
 
-<p align="center">
+<table align="center">
+<tr>
 
-<img src="./Assets/gfg-card.svg" width="48%" />
+<td align="center" width="33%">
 
-<img src="./Assets/hackerrank-card.svg" width="48%" />
+### 🟤 CodeChef
 
-</p>      </a>
+<a href="https://www.codechef.com/users/lohitha05">
+<img src="https://img.shields.io/badge/500%2B_Problems-CodeChef-brown?style=for-the-badge&logo=codechef&logoColor=white"><br><br>
+
+⭐ **500+ Problems Solved**<br>
+🏅 Competitive Programmer<br>
+🔗 View Profile
+</a>
+
+</td>
+
+<td align="center" width="33%">
+
+### 🟢 GeeksforGeeks
+
+<a href="https://www.geeksforgeeks.org/user/damisetti87j6/">
+<img src="https://img.shields.io/badge/200%2B_Problems-GeeksforGeeks-2F8D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white"><br><br>
+
+💻 **200+ Problems Solved**<br>
+📈 DSA Practice<br>
+🔗 View Profile
+</a>
+
+</td>
+
+<td align="center" width="33%">
+
+### 🟩 HackerRank
+
+<a href="https://www.hackerrank.com/damisettilohitha">
+<img src="https://img.shields.io/badge/20_Stars_|_7_Badges-HackerRank-00EA64?style=for-the-badge&logo=hackerrank&logoColor=white"><br><br>
+
+⭐ **20 Stars**<br>
+🏅 **7 Badges**<br>
+🔗 View Profile
+</a>
+
+</td>
+
+</tr>
+</table>
     </td>
       
   </tr>
