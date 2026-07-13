@@ -1,10 +1,16 @@
 <!-- HERO SECTION -->
 <div align="center">
-<p align="center">
+<div align="center">
+  <!-- Use capsule-render to create a high-quality animated gradient background -->
   <a href="https://github.com/damisettilohitha">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=1000&color=00FFCC&background=1f232a&center=true&vCenter=true&width=1000&height=120&lines=Hi+%F0%9F%91%8B%2C+I%27m+Lohitha+Damisetti+%F0%9F%9B%B8;Full+Stack+%26+Backend+Engineer+%E2%9A%A1;AI+%26+Data+Science+Enthusiast+%F0%9F%A7%A0;Building+Scalable+Software+Solutions+%F0%9F%9A%80" alt="Lohitha's Tech Profile Banner" width="100%" />
+    <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=180&section=header&animation=twinkling&theme=dark" width="100%" />
   </a>
-</p>
+  
+  <!-- Single, centered line of code with only the name -->
+  <p align="center">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=36&weight=600&color=00FFCC&background=14141600&center=true&vCenter=true&width=800&height=65&lines=LOHITHA+DAMISETTI" alt="Typing SVG" />
+  </p>
+</div>
   
   <h3><strong>Full Stack & Backend Engineer | AI & Data Science Enthusiast</strong></h3>
   <p><i>Building scalable applications, AI-powered solutions, backend systems, and modern web applications.</i></p>
