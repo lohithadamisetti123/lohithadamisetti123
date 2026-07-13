@@ -1,7 +1,7 @@
 <!-- HERO SECTION -->
 <div align="center">
 <p align="center">
-  <img src="assets/541654d7-0654-4567-beb0-e7a52117ee58.jpg" alt="LOHITHA DAMISETTI" width="100%" height="120" style="object-fit: cover;">
+  <img src="assets/541654d7-0654-4567-beb0-e7a52117ee58.jpg" alt="LOHITHA DAMISETTI" width="100%" height="160" style="object-fit: cover;">
 </p>
 
   
