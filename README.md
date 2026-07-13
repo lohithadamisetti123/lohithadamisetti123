@@ -65,75 +65,37 @@
 <h2 align="center">🏆 Competitive Programming</h2>
 
 <p align="center">
-
-⭐ **480+ LeetCode** &nbsp; • &nbsp;
-⭐ **500+ CodeChef** &nbsp; • &nbsp;
-⭐ **200+ GeeksforGeeks** &nbsp; • &nbsp;
-⭐ **20★ HackerRank**
-
+  <img src="https://images.squarespace-cdn.com/content/v1/5b35244196d45543c72b2203/1545155913220-4N66R8858OQZTDV67J9M/loading+dots.gif" width="0" />
+  <a href="https://leetcode.com/u/damisettilohitha/">
+    <img src="https://img.shields.io/badge/LeetCode-480+%20Solved-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" />
+  </a>
+  <a href="https://www.codechef.com/users/lohitha05">
+    <img src="https://img.shields.io/badge/CodeChef-500+%20Solved-5B4638?style=for-the-badge&logo=codechef&logoColor=white" />
+  </a>
+  <a href="https://www.geeksforgeeks.org/user/damisetti87j6/">
+    <img src="https://img.shields.io/badge/GeeksforGeeks-200+%20Solved-2F8D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white" />
+  </a>
+  <a href="https://www.hackerrank.com/damisettilohitha">
+    <img src="https://img.shields.io/badge/HackerRank-20★%20%7C%207%20Badges-00EA64?style=for-the-badge&logo=hackerrank&logoColor=white" />
+  </a>
 </p>
 
 <p align="center">
-<a href="https://leetcode.com/u/damisettilohitha/">
-<img src="https://leetcard.jacoblin.cool/damisettilohitha?theme=dark&font=Fira%20Code" width="420"/>
-</a>
+  <a href="https://leetcode.com/u/damisettilohitha/">
+    <img src="https://leetcard.jacoblin.cool/damisettilohitha?theme=dark&font=Fira%20Code" width="450"/>
+  </a>
 </p>
 
-<table width="100%">
+<br clear="both">
 
-<tr>
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=damisettilohitha&show_icons=true&theme=dark&hide_border=true&bg_color=0D1117" width="48%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=damisettilohitha&theme=dark&hide_border=true&background=0D1117" width="48%" />
+</p>
 
-<td align="center" width="33%">
-
-### 🟤 CodeChef
-
-<a href="https://www.codechef.com/users/lohitha05">
-<img src="https://img.shields.io/badge/500%2B%20Problems-CodeChef-5B4638?style=for-the-badge&logo=codechef&logoColor=white"/>
-</a>
-
-<br><br>
-
-**🏅 Competitive Programmer**
-
-⭐ 500+ Problems Solved
-
-</td>
-
-<td align="center" width="33%">
-
-### 🟢 GeeksforGeeks
-
-<a href="https://www.geeksforgeeks.org/user/damisetti87j6/">
-<img src="https://img.shields.io/badge/200%2B%20Problems-GeeksforGeeks-2F8D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white"/>
-</a>
-
-<br><br>
-
-**💻 DSA Practice**
-
-⭐ 200+ Problems Solved
-
-</td>
-
-<td align="center" width="33%">
-
-### 🟩 HackerRank
-
-<a href="https://www.hackerrank.com/damisettilohitha">
-<img src="https://img.shields.io/badge/20★%20|%207%20Badges-HackerRank-00EA64?style=for-the-badge&logo=hackerrank&logoColor=white"/>
-</a>
-
-<br><br>
-
-**🏆 Problem Solving**
-
-⭐ 20 Stars • 7 Badges
-
-</td>
-
-</tr>
-
-</table>
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=60&section=footer" width="100%"/>
+</div>
 
 ---
 
