@@ -2,7 +2,7 @@
 <div align="center">
 <div align="center">
   <a href="https://github.com/damisettilohitha">
-    <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=21&height=180&section=header&text=LOHITHA%20DAMISETTI&fontSize=42&fontColor=00FFCC&animation=twinkling&theme=dark" width="100%" />
+    <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=21&height=180&section=header&text=LOHITHA%20DAMISETTI&fontSize=42&fontColor=00FFCC&animation=twinkling&theme=dark" width="100%" />
   </a>
 </div>
   
