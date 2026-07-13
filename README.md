@@ -1,8 +1,9 @@
 <!-- HERO SECTION -->
 <div align="center">
 <p align="center">
-  <img src="assets/541654d7-0654-4567-beb0-e7a52117ee58.jpg" alt="LOHITHA DAMISETTI" width="100%">
+  <img src="assets/541654d7-0654-4567-beb0-e7a52117ee58.jpg" alt="LOHITHA DAMISETTI" width="100%" height="220" style="object-fit: cover;">
 </p>
+
   
   <h3><strong>Full Stack & Backend Engineer | AI & Data Science Enthusiast</strong></h3>
   <p><i>Building scalable applications, AI-powered solutions, backend systems, and modern web applications.</i></p>
