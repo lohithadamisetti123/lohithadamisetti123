@@ -1,15 +1,9 @@
 <!-- HERO SECTION -->
 <div align="center">
 <div align="center">
-  <!-- Use capsule-render to create a high-quality animated gradient background -->
   <a href="https://github.com/damisettilohitha">
-    <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=180&section=header&animation=twinkling&theme=dark" width="100%" />
+    <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=21&height=180&section=header&text=LOHITHA%20DAMISETTI&fontSize=42&fontColor=00FFCC&animation=twinkling&theme=dark" width="100%" />
   </a>
-  
-  <!-- Single, centered line of code with only the name -->
-  <p align="center">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=36&weight=600&color=00FFCC&background=14141600&center=true&vCenter=true&width=800&height=65&lines=LOHITHA+DAMISETTI" alt="Typing SVG" />
-  </p>
 </div>
   
   <h3><strong>Full Stack & Backend Engineer | AI & Data Science Enthusiast</strong></h3>
