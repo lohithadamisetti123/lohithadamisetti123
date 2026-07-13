@@ -47,7 +47,7 @@
 <td width="45%" align="center" valign="middle" style="border: none; background: none;">
 
 
-<img src="./assets/Create_a_6second_premium_cinematic_looping_a.gif" height="350" alt="Coding Animation"/>
+<img src="./assets/Create_a_6second_premium_cinematic_looping_a.gif" height="550" alt="Coding Animation"/>
 
 </td>
 </tr>
