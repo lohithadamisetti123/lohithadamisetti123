@@ -248,10 +248,15 @@
 <!-- GITHUB STATS -->
 <h2>📈 GitHub Analytics & Open Source Activity</h2>
 <div align="center">
-  <p>
-    <img src="https://github-readme-stats.vercel.app/api?username=lohithadamisetti123&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="GitHub Stats" width="48%" />
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=lohithadamisetti123&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="Top Languages" width="48%" />
-  </p>
+<p align="center">
+  <img
+    height="170"
+    src="https://github-readme-stats.vercel.app/api?username=lohithadamisetti123&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&cache_seconds=86400" />
+
+  <img
+    height="170"
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=lohithadamisetti123&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&cache_seconds=86400" />
+</p>
   <p>
     <img src="https://github-readme-streak-stats.herokuapp.com/?user=lohithadamisetti123&theme=tokyonight&hide_border=true&background=0D1117" alt="GitHub Streak" width="97%" />
   </p>
