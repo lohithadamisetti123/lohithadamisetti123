@@ -26,7 +26,7 @@
 
 <table width="100%" border="0">
 <tr>
-<td width="50%" valign="top" style="border: none; background: none;">
+<td width="40%" valign="top" style="border: none; background: none;">
 
 ### 👨‍💻 Who am I?
 
@@ -44,9 +44,9 @@
 
 </td>
 
-<td width="50%" align="center" valign="middle" style="border: none; background: none;">
+<td width="60%" align="center" valign="middle" style="border: none; background: none;">
 
-<img src="./assets/Create_a_6second_premium_cinematic_looping_a.gif" style="max-height: 500px; width: 100%; object-fit: cover;" alt="Coding Animation"/>
+<img src="./assets/Create_a_6second_premium_cinematic_looping_a.gif" width="100%" height="auto" alt="Coding Animation"/>
 
 </td>
 </tr>
