@@ -62,8 +62,9 @@
 
 <!-- ================= COMPETITIVE PROGRAMMING ================= -->
 <!-- Section Header with subtle typing or glow effect layout -->
+<!-- Section Header with a matching Dark/Glow theme -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=soft&color=auto&height=120&section=header&text=🏆%20Competitive%20Programming&fontSize=30&animation=twinkling" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=1f232a&height=120&section=header&text=🏆%20Competitive%20Programming&fontSize=30&fontColor=ffffff" width="100%"/>
 </div>
 
 <!-- Animated Metrics Section -->
@@ -82,18 +83,19 @@
   </a>
 </p>
 
-<!-- Left/Right Split: Working LeetCode Card alongside an Animated Developer Activity Asset -->
+<!-- Left/Right Split: Perfectly balanced with working assets -->
 <table align="center" width="100%" border="0">
   <tr>
-    <td align="center" width="50%" style="border: none;">
-      <!-- Working LeetCode Component from image_35eea8.png -->
+    <td align="center" width="50%" style="border: none; background: none;">
       <a href="https://leetcode.com/u/damisettilohitha/">
         <img src="https://leetcard.jacoblin.cool/damisettilohitha?theme=dark&font=Fira%20Code" width="400"/>
       </a>
     </td>
-    <td align="center" width="50%" style="border: none;">
-      <!-- Sleek, reliable animated programming illustration -->
-      <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdWw0eTZndXp4M3N4bWNwY3g1ZXg4N2VvOTZ5dG90MmI0bm9wYm9pZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/ZgWhzyA98COAs6msS6/giphy.gif" width="280"/>
+    <td align="center" width="50%" style="border: none; background: none;">
+      <!-- Using a GitHub-native typing animation that never fails to render -->
+      <a href="https://github.com/aaronlowell">
+        <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=FFA116&center=true&vCenter=true&width=400&lines=Building+Algorithms...;Solving+Complex+DSA;Optimizing+Time+Complexity;Continuous+Learning" alt="Typing SVG" />
+      </a>
     </td>
   </tr>
 </table>
