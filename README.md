@@ -1,134 +1,295 @@
-<div align="center">
+<h1 align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=3000&pause=800&color=00FFCC&background=14141600&center=true&vCenter=true&width=800&height=50&lines=Hi+👋,+I'm+Lohitha+Damisetti🛸;Full+Stack+%26+Backend+Engineer+⚡;AI+%26+Data+Science+Enthusiast+🧠;Building+Scalable+Software+Solutions+🚀" alt="Typing SVG" />
+</h1>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=30&duration=3000&pause=800&color=00FFCC&background=14141600&center=true&vCenter=true&width=800&height=60&lines=Hi+%F0%9F%91%8B%2C+I'm+%5BYOUR_NAME%5D;%5BYOUR_ROLE%5D;%5BYOUR_TAGLINE%5D" alt="Typing SVG" />
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=lohithadamisetti123&color=00FFCC&style=flat-square" alt="Visitor Counter" />
+</p>
 
-<br/>
-
-<img src="Assets/output.gif" alt="Profile Animation" width="100%" />
-
-<br/><br/>
-
-<a href="https://github.com/[YOUR_GITHUB]"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
-<a href="https://www.linkedin.com/in/[YOUR_LINKEDIN]"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-<a href="https://instagram.com/[YOUR_INSTAGRAM]"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" /></a>
-<a href="https://[YOUR_WEBSITE]"><img src="https://img.shields.io/badge/Portfolio-00FFCC?style=for-the-badge&logo=vercel&logoColor=black" /></a>
-<a href="mailto:[YOUR_EMAIL]"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-
-<img src="https://komarev.com/ghpvc/?username=[YOUR_GITHUB]&color=00FFCC&style=for-the-badge&label=PROFILE+VIEWS" alt="Visitor Count" />
-
-</div>
+<p align="center">
+  <strong>Building scalable applications, AI-powered solutions, backend systems, and modern web applications.</strong>
+</p>
 
 ---
 
 ## 🚀 About Me
 
-```yaml
-role: "[YOUR_ROLE]"
-focus: "Building scalable, production-ready software across backend, AI, and cloud systems"
-currently_building: "AI-powered applications with LLMs, RAG pipelines, and modern web platforms"
-learning: ["System Design", "Kubernetes", "Vector Databases", "AI Agents"]
-tech_stack: ["Python", "Django", "FastAPI", "React", "AWS", "Docker", "PostgreSQL", "MongoDB", "Redis"]
-ask_me_about: ["Backend Architecture", "LLM Integrations", "Prompt Engineering", "System Design", "Cloud Deployments"]
-fun_fact: "I don't just write code. I build scalable solutions that solve real-world problems."
-```
+- 🎓 **Education:** B.Tech Data Science Student (2023-2027) at Aditya College of Engineering and Technology
+- 💻 **Focus:** Passionate Software Developer focused on solving real-world problems through technology.
+- 📈 **Philosophy:** Strong believer in continuous learning and building production-ready applications.
 
-<table>
-<tr>
-<td valign="top" width="50%">
+---
 
-### 🔭 Currently Working On
-- Designing scalable backend systems with **FastAPI** & **Django**
-- Building **LLM-powered** applications and AI agents
-- Exploring **Vector Databases** for semantic search & RAG
+## 🏆 Competitive Programming & Highlights
 
-</td>
-<td valign="top" width="50%">
+<p align="center">
+  <img src="https://leetcard.jacoblin.cool/damisettilohitha?theme=dark&font=Fira%20Code" alt="LeetCode Stats" width="400"/>
+</p>
 
-### 🌱 Currently Learning
-- Advanced **System Design** patterns
-- **Kubernetes** & cloud-native architectures
-- **Prompt Engineering** & agentic workflows
+- ⭐ **9.13 CGPA** | Department Topper
+- ⭐ **450+** LeetCode Problems Solved
+- ⭐ **500+** CodeChef Problems Solved
+- ⭐ **250+** GeeksforGeeks Problems Solved
+- ⭐ **15+** HackerRank Badges
+- ⭐ **Hackathons:** Cleared Adobe Hackathon Round 1 & HackerEarth Hackathon Round 1
+- ⭐ **Leadership:** Team Lead for *Dream Vacation Planner Project* | Frontend Lead for *Tech360 Portal*
 
-</td>
-</tr>
+---
+
+# 💼 Featured Projects
+
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🔐 PolicyGuard AI</h3>
+      <p>An AI-powered Privacy Risk Analyzer that automatically analyzes Privacy Policies and Terms & Conditions for desktop, web, and mobile applications.</p>
+      <p>
+        <code>React</code> <code>React Native</code> <code>Electron</code> <code>Node.js</code> <code>MongoDB</code> <code>OpenAI API</code> <code>Docker</code>
+      </p>
+      ✔ AI Risk Detection & Privacy Score Generation<br/>
+      ✔ Real-time Desktop Monitoring & Alerts
+    </td>
+    <td width="50%" valign="top">
+      <h3>🏢 Multi-Tenant SaaS Platform</h3>
+      <p>A production-ready SaaS platform supporting multiple organizations with secure tenant isolation, RBAC, and team management.</p>
+      <p>
+        <code>Node.js</code> <code>Express.js</code> <code>React</code> <code>PostgreSQL</code> <code>Docker</code> <code>JWT</code>
+      </p>
+      ✔ Secure Tenant Isolation & Granular RBAC<br/>
+      ✔ Real-time Task Tracking & Project Management
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>💳 Payment Gateway System</h3>
+      <p>A complete financial payment gateway supporting hosted checkouts, merchant dashboards, UPI, and card payments.</p>
+      <p>
+        <code>Spring Boot</code> <code>Node.js</code> <code>React</code> <code>PostgreSQL</code> <code>Docker</code>
+      </p>
+      ✔ Merchant Dashboard & Order Management<br/>
+      ✔ Secure Hosted Checkout Flow
+    </td>
+    <td width="50%" valign="top">
+      <h3>🌐 Tech360 Portal</h3>
+      <p>Collaborated in a team of six to build a unified hub empowering students and developers through real-time career resources.</p>
+      <p>
+        <code>HTML5</code> <code>CSS3</code> <code>JavaScript</code> <code>Bootstrap</code> <code>Contest Tracker API</code>
+      </p>
+      ✔ Live Contest Tracking & DSA Learning Platform<br/>
+      ✔ Dynamic Resume Builder & Job Drive Modules
+    </td>
+  </tr>
 </table>
 
 ---
 
-## ⚡ Tech Stack
+# ⚡ Engineering Stack
 
-<div align="center">
+### 💻 Languages
+<p>
+  <img src="https://skillicons.dev/icons?i=cpp,java,python,javascript,go,solidity,html,css" />
+</p>
 
-**Backend**
-<br/>
-<img src="https://skillicons.dev/icons?i=python,django,fastapi,nodejs,express,java,spring" />
+### 🎨 Frontend
+<p>
+  <img src="https://skillicons.dev/icons?i=react,nextjs,electron,tailwind,bootstrap,vue,vite" />
+</p>
 
-**Frontend**
-<br/>
-<img src="https://skillicons.dev/icons?i=react,nextjs,javascript,html,css,tailwind,redux" />
+### ⚙️ Backend
+<p>
+  <img src="https://skillicons.dev/icons?i=nodejs,express,spring,fastapi" />
+</p>
 
-**Cloud & DevOps**
-<br/>
-<img src="https://skillicons.dev/icons?i=aws,docker,kubernetes,git,github,linux,nginx" />
+### 🗄️ Database & Caching
+<p>
+  <img src="https://skillicons.dev/icons?i=mongodb,mysql,postgres,redis" />
+</p>
 
-**Databases & Caching**
-<br/>
-<img src="https://skillicons.dev/icons?i=postgres,mongodb,mysql,redis,sqlite" />
+### ☁️ Cloud & DevOps
+<p>
+  <img src="https://skillicons.dev/icons?i=docker,git,github,linux,aws" />
+</p>
 
-**AI / ML**
-<br/>
-<img src="https://img.shields.io/badge/LLMs-412991?style=for-the-badge&logo=openai&logoColor=white" />
-<img src="https://img.shields.io/badge/Prompt_Engineering-00FFCC?style=for-the-badge&logo=googlegemini&logoColor=black" />
-<img src="https://img.shields.io/badge/Vector_DBs-FF6F61?style=for-the-badge&logo=pinecone&logoColor=white" />
-<img src="https://img.shields.io/badge/RAG_Pipelines-4B8BBE?style=for-the-badge" />
-<img src="https://skillicons.dev/icons?i=pytorch,tensorflow" />
+### 🤖 Artificial Intelligence
+<p>
+  OpenAI API • Gemini API • Ollama • Llama 3.2 • Prompt Engineering • NLP • Deep Learning • Fine-Tuning • Structured Output • AI Agents • Intent Classification • AI Chatbots
+</p>
 
-**Tools**
-<br/>
-<img src="https://skillicons.dev/icons?i=vscode,postman,figma,jira,notion,vercel" />
+### ⛓️ Blockchain
+<p>
+  Ethereum • Solidity • Hardhat • Foundry • Ethers.js • OpenZeppelin • Chainlink CCIP • ERC20 • ERC721 • DAO • NFT • DEX • UUPS Proxy • Omnichain Applications • Smart Contracts • Gas Optimization
+</p>
 
-</div>
+### 📊 Data Engineering
+<p>
+  Apache Kafka • RabbitMQ • Hadoop • Delta Lake • DuckDB • CDC Pipelines • ETL • Data Warehousing • Apache Flink • Event Streaming
+</p>
+
+### 🔐 Security & Access Control
+<p>
+  JWT • RSA Encryption • PKI Authentication • Role Based Access Control (RBAC) • Email Security • OAuth • Authentication • Authorization
+</p>
 
 ---
 
-## 📊 GitHub Analytics
+# 🚀 Engineering Experience
 
-<div align="center">
+Throughout my software engineering journey, I have designed and implemented production-ready systems across multiple domains.
 
-<img src="https://github-readme-stats.vercel.app/api?username=[YOUR_GITHUB]&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" width="48%" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=[YOUR_GITHUB]&layout=compact&theme=tokyonight&hide_border=true" width="48%" />
+### 🌐 Backend Systems
+✔ REST APIs  
+✔ Authentication & Authorization  
+✔ Payment Gateways  
+✔ Multi-Tenant SaaS  
+✔ Redis Caching  
+✔ PostgreSQL  
+✔ MongoDB  
+✔ Spring Boot APIs  
+✔ FastAPI Services  
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=[YOUR_GITHUB]&theme=tokyonight&hide_border=true" width="97%" />
+### ⚡ Distributed Systems
+✔ Apache Kafka  
+✔ RabbitMQ  
+✔ Event-Driven Architecture  
+✔ CQRS  
+✔ Event Sourcing  
+✔ Change Data Capture (CDC)  
+✔ Incremental Data Export  
+✔ Sidecar Pattern  
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=[YOUR_GITHUB]&theme=tokyo-night&hide_border=true" width="97%" />
+### 🤖 Artificial Intelligence
+✔ LLM Applications  
+✔ OpenAI API  
+✔ Gemini API  
+✔ Ollama  
+✔ Llama 3.2  
+✔ Prompt Routing  
+✔ Prompt Engineering  
+✔ AI Chatbots  
+✔ Structured Output Fine-Tuning  
+✔ Intent Classification  
+✔ Reinforcement Learning  
+✔ NLP  
 
-</div>
+### ⛓️ Blockchain
+✔ ERC20 Tokens  
+✔ ERC721 NFTs  
+✔ DAO Governance  
+✔ DEX  
+✔ Chainlink CCIP  
+✔ Omnichain Asset Bridge  
+✔ Upgradeable Smart Contracts  
+✔ Treasury Management  
+✔ NFT Launchpad  
+✔ Smart Contract Testing  
+✔ Gas Optimization  
+✔ Solidity  
+✔ Hardhat  
+✔ Foundry  
 
-<details>
-<summary><strong>🏆 GitHub Trophies</strong></summary>
-<br/>
-<div align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=[YOUR_GITHUB]&theme=tokyonight&column=7&margin-w=15&margin-h=15&no-frame=true" />
-</div>
-</details>
+### 📊 Data Engineering
+✔ Hadoop  
+✔ Apache Flink  
+✔ Kafka  
+✔ ETL Pipelines  
+✔ Delta Lake  
+✔ DuckDB  
+✔ Data Warehousing  
+✔ CDC Pipelines  
+✔ Search Indexing  
+
+### 🛠️ DevOps & Infrastructure
+✔ Docker  
+✔ Git  
+✔ GitHub  
+✔ Linux  
+✔ Logging & Monitoring  
+✔ CI/CD Ready Applications  
+✔ Containerized Deployments  
+
+---
+
+# 🏆 Global Placement Program Highlights
+
+Over the past year, I have successfully completed **40+ industry-grade software engineering projects** covering backend development, AI, blockchain, distributed systems, DevOps, and data engineering.
+
+### 🚀 Technologies & Architectures Worked On
+- Event-Driven Architecture (Kafka & RabbitMQ)
+- Multi-Tenant SaaS
+- Payment Gateway Systems
+- Redis Cache-Aside Pattern
+- CQRS & Event Sourcing
+- Change Data Capture (CDC)
+- Data Lakehouse
+- AI Chatbots
+- LLM Prompt Routing
+- Fine-Tuning Llama Models
+- Chrome Extensions (Manifest V3)
+- Reinforcement Learning
+- Omnichain Blockchain Applications
+- DAO Governance
+- NFT Launchpads
+- Smart Contract Testing
+- Upgradeable Contracts (UUPS)
+- PKI-Based Authentication
+- Docker Sidecar Pattern
+- Hadoop Analytics Pipelines
+- Apache Flink Streaming
+
+---
+
+## 📈 GitHub Metrics
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=lohithadamisetti123&show_icons=true&theme=tokyonight" alt="Lohitha's GitHub Stats" width="48%" />
+
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=lohithadamisetti123&layout=compact&theme=tokyonight" alt="Top Languages" width="48%" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=lohithadamisetti123&theme=tokyonight" alt="GitHub Streak" width="97%" />
+</p>
+
+## 📊 Activity Graph
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=lohithadamisetti123&theme=tokyo-night" />
+
+### 🐍 Contribution Activity Graph
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/lohithadamisetti123/lohithadamisetti123/output/github-contribution-grid-snake.svg" alt="Snake Contribution Graph" width="100%" />
+</p>
+
+---
+
+## 🌱 Currently Exploring
+
+🏗️ Advanced System Design  
+☁️ Cloud Native Applications  
+☸️ Kubernetes  
+🤖 AI Agents  
+🧠 LLM Engineering  
+⚡ High Performance Backend Systems  
+📡 Distributed Computing  
+🔗 Blockchain Infrastructure  
+🚀 Microservices Architecture  
 
 ---
 
 ## 🤝 Let's Connect
 
-<div align="center">
+<p align="left">
+  <a href="mailto:damisettilohitha@gmail.com"><img src="https://img.shields.io/badge/Email-Gmail-red?style=for-the-badge&logo=gmail" alt="Gmail" /></a>
+  <a href="https://www.linkedin.com/in/lohitha-damisetti-2bb36829a/"><img src="https://img.shields.io/badge/LinkedIn-Profile-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn" /></a>
+  <a href="https://leetcode.com/u/damisettilohitha/"><img src="https://img.shields.io/badge/LeetCode-Profile-orange?style=for-the-badge&logo=leetcode" alt="LeetCode" /></a>
+  <a href="https://www.codechef.com/users/lohitha05"><img src="https://img.shields.io/badge/CodeChef-Profile-brown?style=for-the-badge&logo=codechef" alt="CodeChef" /></a>
+  <a href="https://www.geeksforgeeks.org/user/damisetti87j6/"><img src="https://img.shields.io/badge/GeeksforGeeks-Profile-green?style=for-the-badge&logo=geeksforgeeks" alt="GeeksforGeeks" /></a>
+  <a href="https://www.hackerrank.com/damisettilohitha"><img src="https://img.shields.io/badge/HackerRank-Profile-darkgreen?style=for-the-badge&logo=hackerrank" alt="HackerRank" /></a>
+</p>
 
-I'm always open to discussing new opportunities, collaborations, and interesting engineering problems.
+---
 
-<a href="https://github.com/[YOUR_GITHUB]"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
-<a href="https://www.linkedin.com/in/[YOUR_LINKEDIN]"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-<a href="https://instagram.com/[YOUR_INSTAGRAM]"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" /></a>
-<a href="https://[YOUR_WEBSITE]"><img src="https://img.shields.io/badge/Portfolio-00FFCC?style=for-the-badge&logo=vercel&logoColor=black" /></a>
-<a href="mailto:[YOUR_EMAIL]"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+## 💬 Quote
 
-<br/><br/>
-
-### 💬
 > "I don't just write code. I build scalable solutions that solve real-world problems."
-
-</div>
