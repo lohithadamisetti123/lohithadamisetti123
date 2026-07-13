@@ -341,9 +341,8 @@
 <h2>📈 GitHub Analytics & Open Source Activity</h2>
 <div align="center">
 <p align="center">
-  <img src="https://img.shields.io/badge/LeetCode-480%2B-orange?style=for-the-badge&logo=leetcode" />
-  <img src="https://img.shields.io/badge/CodeChef-500%2B-brown?style=for-the-badge&logo=codechef" />
-  <img src="https://img.shields.io/badge/HackerRank-20★-green?style=for-the-badge&logo=hackerrank" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=lohithadamisetti123&theme=tokyonight" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=lohithadamisetti123&theme=tokyonight" />
 </p>
   <p>
     <img src="https://github-readme-streak-stats.herokuapp.com/?user=lohithadamisetti123&theme=tokyonight&hide_border=true&background=0D1117" alt="GitHub Streak" width="97%" />
