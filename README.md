@@ -23,13 +23,11 @@
 <!-- ABOUT & MEDIA SECTION -->
 <!-- ================= ABOUT ME ================= -->
 
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=soft&color=1f232a&height=120&section=header&text=🚀%20About%20Me&fontSize=30&fontColor=ffffff" width="100%"/>
-</div>
+<h2 align="center">🚀 About Me</h2>
 
 <table width="100%" border="0">
 <tr>
-<td width="60%" valign="top" style="border: none; background: none;">
+<td width="55%" valign="top" style="border: none; background: none;">
 
 ### 👨‍💻 Biography
 
@@ -47,21 +45,19 @@
 
 </td>
 
-<td width="40%" align="center" valign="middle" style="border: none; background: none;">
+<td width="45%" align="center" valign="middle" style="border: none; background: none;">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3000&pause=1000&color=98C379&center=true&vCenter=true&width=350&lines=Data+Science+Student;Full+Stack+Developer;AI+Automation+Engineer;Open+Source+Contributor" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=61AFEF&center=true&vCenter=true&width=380&lines=Data+Science+Student;Full+Stack+Developer;AI+Automation+Engineer;Open+Source+Contributor" alt="Typing SVG" />
 
 <br/><br/>
 
-<img src="./assets/Create_a_6second_premium_cinematic_looping_a.gif" width="90%" alt="Coding Animation"/>
+<img src="./assets/Create_a_6second_premium_cinematic_looping_a.gif" width="100%" alt="Coding Animation"/>
 
 </td>
 </tr>
 </table>
 
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=60&section=footer" width="100%"/>
-</div>
+<hr style="border: 1px solid #30363d; background-color: #30363d; height: 1px; margin: 20px 0;" />
 ---
 
 <!-- ================= COMPETITIVE PROGRAMMING ================= -->
