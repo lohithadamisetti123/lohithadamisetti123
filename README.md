@@ -1,18 +1,10 @@
 <!-- HERO SECTION -->
 <div align="center">
- <!-- Pre-configured premium animated gradient banner wrapping your typing SVG -->
-<div align="center">
-  <!-- Use capsule-render to create a high-quality animated gradient background -->
+<p align="center">
   <a href="https://github.com/damisettilohitha">
-    <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=10&height=150&section=header&text=%20&fontSize=30&fontColor=ffffff&animation=twinkling&theme=dark" width="100%" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=00FFCC&background=1f232a&center=true&vCenter=true&width=1000&height=120&lines=Hi+👋,+I'm+Lohitha+Damisetti🛸;Full+Stack+%26+Backend+Engineer+⚡;AI+%26+Data+Science+Enthusiast+🧠;Building+Scalable+Software+Solutions+🚀" alt="Lohitha's Tech Profile Banner" width="100%" />
   </a>
-  
-  <!-- Overlay your customized typing SVG with matching cyberpunk colors -->
-  <!-- Adjust height slightly to maintain alignment with the 'waving' top -->
-  <p align="center">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=3000&pause=800&color=00FFCC&background=14141600&center=true&vCenter=true&width=800&height=65&lines=Hi+👋,+I'm+Lohitha+Damisetti🛸;Full+Stack+%26+Backend+Engineer+⚡;AI+%26+Data+Science+Enthusiast+🧠;Building+Scalable+Software+Solutions+🚀" alt="Typing SVG" />
-  </p>
-</div>
+</p>
   <h3><strong>Full Stack & Backend Engineer | AI & Data Science Enthusiast</strong></h3>
   <p><i>Building scalable applications, AI-powered solutions, backend systems, and modern web applications.</i></p>
 
