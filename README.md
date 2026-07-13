@@ -141,10 +141,11 @@
 
 - 🥇 **Top 100 Team** — Myntra HackerRamp WeForShe 2026
 - 💯 **Department Topper**
-- 🏆 Cleared **Adobe Hackathon Round 1**
-- 🏆 Cleared **HackerEarth Hackathon Round 1**
+- 🏆 Semi Finalist **Adobe Hackathon**
+- 🏆 Selected **ATF Fellow ship**
 - 👨‍💼 Team Lead — **Dream Vacation Planner**
 - 💻 Frontend Lead — **Tech360 Portal**
+- 💻 App Developer — **Policy Guard AI**
 <!-- SKILLS SHOWCASE -->
 <h2>⚡ Tech Stack & Engineering Arsenal</h2>
 
@@ -347,6 +348,9 @@
   <img
     height="170"
     src="https://github-readme-stats.vercel.app/api/top-langs/?username=lohithadamisetti123&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&cache_seconds=86400" />
+</p>
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=lohithadamisetti123&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=7" />
 </p>
   <p>
     <img src="https://github-readme-streak-stats.herokuapp.com/?user=lohithadamisetti123&theme=tokyonight&hide_border=true&background=0D1117" alt="GitHub Streak" width="97%" />
