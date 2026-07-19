@@ -1,3 +1,10 @@
+<p align="center">
+  <img src="terminal-card.svg" alt="Terminal Card" width="900"/>
+</p>
+<p align="center">
+  <img src="github-contribution-animation.svg" alt="GitHub Contribution Animation" width="850"/>
+</p>
+
 <!-- HERO SECTION -->
 <div align="center">
   <h1 align="center">
