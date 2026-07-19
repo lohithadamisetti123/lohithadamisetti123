@@ -1,9 +1,10 @@
-import random, math, textwrap
+import random
 
 random.seed(42)
 
-# ── helpers ────────────────────────────────────────────────────────────────────
 COLORS = ["#161b22","#0e4429","#006d32","#26a641","#39d353"]
+# shine peak: near-white tinted green flash for the glint moment
+GLOW   = ["#21262d","#3dffa0","#57ffb0","#8dffcc","#c8ffe8"]
 
 def pick_level():
     r = random.random()
@@ -13,264 +14,261 @@ def pick_level():
     if r < 0.87: return 3
     return 4
 
-WEEKS = 53
-DAYS  = 7
-SQ    = 11   # square size
-GAP   = 3    # gap between squares
-STEP  = SQ + GAP  # 14
-GRAPH_X = 34   # left offset (after weekday labels)
-GRAPH_Y = 28   # top offset (after month labels)
+WEEKS   = 53
+DAYS    = 7
+SQ      = 11
+GAP     = 3
+STEP    = SQ + GAP   # 14
+GRAPH_X = 34
+GRAPH_Y = 28
+MONTHS  = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"]
 
-MONTHS = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"]
 
-# ── BUILD contribution-animation.svg ───────────────────────────────────────────
+# ==============================================================================
+# github-contribution-animation.svg
+# Diagonal (slant) reveal with bright glow flash on each square
+# ==============================================================================
 def build_contrib():
     W, H = 850, 165
     lines = []
 
-    # defs
     lines.append(f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}">')
     lines.append('<defs>')
-    # clip path for card
-    lines.append(f'<clipPath id="card-clip"><rect width="{W}" height="{H}" rx="16"/></clipPath>')
-    # sweep gradient
-    lines.append('''<linearGradient id="sweep" x1="0%" y1="0%" x2="100%" y2="100%">
-  <stop offset="0%" stop-color="white" stop-opacity="0"/>
-  <stop offset="45%" stop-color="white" stop-opacity="0.06"/>
-  <stop offset="55%" stop-color="white" stop-opacity="0.12"/>
-  <stop offset="100%" stop-color="white" stop-opacity="0"/>
-</linearGradient>''')
-    # glow filter
-    lines.append('''<filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-  <feGaussianBlur stdDeviation="1.5" result="blur"/>
-  <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-</filter>''')
+
+    # glow filter: soft outer halo on level-3+ cells at reveal
+    lines.append(
+        '<filter id="cellglow" x="-70%" y="-70%" width="240%" height="240%">'
+        '<feGaussianBlur stdDeviation="2" result="blur"/>'
+        '<feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>'
+        '</filter>'
+    )
+
     lines.append('</defs>')
 
-    # background card
+    # card background
     lines.append(f'<rect width="{W}" height="{H}" rx="16" fill="#0d1117" stroke="#30363d" stroke-width="1"/>')
 
-    g = lines.append
-
     # month labels
-    month_positions = []
-    weeks_per_month = WEEKS / 12
+    wpm = WEEKS / 12
     for i, m in enumerate(MONTHS):
-        x = GRAPH_X + round(i * weeks_per_month) * STEP
-        month_positions.append(x)
+        x = GRAPH_X + round(i * wpm) * STEP
         lines.append(f'<text x="{x}" y="18" fill="#8b949e" font-size="10" font-family="system-ui,sans-serif">{m}</text>')
 
     # weekday labels
-    for i, label in enumerate(["Mon","","Wed","","Fri","",""]):
-        if label:
+    for i, lbl in enumerate(["Mon","","Wed","","Fri","",""]):
+        if lbl:
             y = GRAPH_Y + i * STEP + SQ - 1
-            lines.append(f'<text x="0" y="{y}" fill="#8b949e" font-size="9" font-family="system-ui,sans-serif">{label}</text>')
+            lines.append(f'<text x="0" y="{y}" fill="#8b949e" font-size="9" font-family="system-ui,sans-serif">{lbl}</text>')
 
-    # build squares with animations
-    total_cols = WEEKS
-    anim_dur = 4.0   # seconds for reveal
-    pause    = 2.0
+    # timing constants
+    anim_dur = 4.5   # reveal duration
+    pause    = 2.5   # hold after reveal
     total    = anim_dur + pause
-    col_delay_s = anim_dur / total_cols  # seconds per column
 
+    SLANT    = 0.6   # row contribution to diagonal (lower = steeper slant)
+    max_diag = (WEEKS - 1) + (DAYS - 1) * SLANT
+
+    # squares
     for col in range(WEEKS):
         for row in range(DAYS):
             lvl   = pick_level()
             color = COLORS[lvl]
+            glow  = GLOW[lvl]
             x     = GRAPH_X + col * STEP
             y     = GRAPH_Y + row * STEP
             sq_id = f"s{col}_{row}"
 
-            # delay in seconds
-            delay = col * col_delay_s
-            # each square appears, scales 0→1 with bounce
-            # keyTimes: 0, delay_norm, delay_norm+spread, 1
-            spread = 0.06  # fraction of total
-            d0 = delay / total
-            d1 = min(d0 + spread * 0.5, 0.99)
-            d2 = min(d0 + spread, 0.99)
+            # diagonal delay: squares along the same diagonal line appear together
+            diag  = col + row * SLANT
+            t_rev = diag / max_diag * anim_dur   # reveal time in seconds
 
-            filter_attr = ' filter="url(#glow)"' if lvl >= 3 else ''
-            cx = x + SQ/2
-            cy = y + SQ/2
+            t0 = t_rev / total
+            # glint: very brief white-ish flash (~80ms peak), settles in ~300ms
+            t1 = min(t0 + 0.012, 0.97)   # peak shine
+            t2 = min(t0 + 0.05,  0.99)   # settled to normal color
+
+            # level-3+ get a soft outer glow halo too
+            fa = ' filter="url(#cellglow)"' if lvl >= 3 else ''
 
             lines.append(
-                f'<rect id="{sq_id}" x="{x}" y="{y}" width="{SQ}" height="{SQ}" rx="2" fill="{color}"{filter_attr}>'
+                f'<rect id="{sq_id}" x="{x}" y="{y}" width="{SQ}" height="{SQ}" rx="2" fill="{color}" opacity="0"{fa}>'
             )
-            # opacity animation
+
+            # fade in at reveal
             lines.append(
                 f'<animate attributeName="opacity" values="0;0;1;1" '
-                f'keyTimes="0;{d0:.4f};{d2:.4f};1" dur="{total}s" repeatCount="indefinite"/>'
+                f'keyTimes="0;{t0:.4f};{t1:.4f};1" '
+                f'dur="{total}s" repeatCount="indefinite"/>'
             )
-            # scale via transform
-            lines.append(
-                f'<animateTransform attributeName="transform" type="scale" '
-                f'values="1 1;0 0;1.15 1.15;1 1" '
-                f'keyTimes="0;{d0:.4f};{d1:.4f};{d2:.4f}" '
-                f'additive="sum" '
-                f'dur="{total}s" repeatCount="indefinite" '
-                f'calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>'
-            )
+
+            # shine flash: normal -> near-white glint -> normal
+            if lvl > 0:
+                lines.append(
+                    f'<animate attributeName="fill" '
+                    f'values="{color};{color};{glow};{color}" '
+                    f'keyTimes="0;{t0:.4f};{t1:.4f};{t2:.4f}" '
+                    f'dur="{total}s" repeatCount="indefinite" '
+                    f'calcMode="spline" keySplines="0 0 1 1;0.1 0 0.2 1;0.4 0 0.6 1"/>'
+                )
+
             lines.append('</rect>')
 
-    # diagonal sweep overlay
-    sweep_w = W * 1.5
-    lines.append(
-        f'<rect x="{-sweep_w}" y="0" width="{sweep_w}" height="{H}" fill="url(#sweep)" opacity="0.6">'
-    )
-    lines.append(
-        f'<animateTransform attributeName="transform" type="translate" '
-        f'values="{-sweep_w} 0;{W+sweep_w} 0" dur="6s" repeatCount="indefinite"/>'
-    )
-    lines.append('</rect>')
+            # tiny white specular highlight rect — appears at reveal, fades quickly
+            # only on non-empty squares; sits in top-left corner of square
+            if lvl > 0:
+                hl_x = x + 2
+                hl_y = y + 2
+                lines.append(
+                    f'<rect x="{hl_x}" y="{hl_y}" width="4" height="2" rx="1" '
+                    f'fill="white" opacity="0" pointer-events="none">'
+                )
+                # flash white at peak, gone by t2
+                lines.append(
+                    f'<animate attributeName="opacity" '
+                    f'values="0;0;0.55;0" '
+                    f'keyTimes="0;{t0:.4f};{t1:.4f};{t2:.4f}" '
+                    f'dur="{total}s" repeatCount="indefinite" '
+                    f'calcMode="spline" keySplines="0 0 1 1;0 0 0.3 1;0.5 0 1 1"/>'
+                )
+                lines.append('</rect>')
 
-    # CSS hover brightness (works in browsers, not GitHub – kept for completeness)
-    lines.append('<style>rect[id^="s"]{transition:filter .15s}rect[id^="s"]:hover{filter:brightness(1.5)}</style>')
+    # no full-canvas overlay – glow lives inside each square only
+
+    lines.append(
+        '<style>'
+        'rect[id^="s"]{transition:filter .15s}'
+        'rect[id^="s"]:hover{filter:brightness(1.65) drop-shadow(0 0 5px #39d353)}'
+        '</style>'
+    )
 
     lines.append('</svg>')
     return "\n".join(lines)
 
-# ── BUILD terminal-card.svg ────────────────────────────────────────────────────
+
+# ==============================================================================
+# terminal-card.svg
+# ==============================================================================
 def build_terminal():
     W, H = 900, 520
     lines = []
 
     lines.append(f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}">')
-
-    # ── defs ──────────────────────────────────────────────────────────────────
     lines.append('<defs>')
 
-    # animated radial gradient background
-    lines.append('''<radialGradient id="bg1" cx="20%" cy="30%" r="60%">
-  <stop offset="0%" stop-color="#0d2137"/>
-  <stop offset="100%" stop-color="#0d1117"/>
-  <animate attributeName="cx" values="20%;80%;20%" dur="10s" repeatCount="indefinite"/>
-  <animate attributeName="cy" values="30%;70%;30%" dur="12s" repeatCount="indefinite"/>
-</radialGradient>
-<radialGradient id="bg2" cx="80%" cy="70%" r="50%">
-  <stop offset="0%" stop-color="#0a1a2e" stop-opacity="0.8"/>
-  <stop offset="100%" stop-color="#0d1117" stop-opacity="0"/>
-</radialGradient>''')
+    lines.append(
+        '<radialGradient id="bg1" cx="20%" cy="30%" r="60%">'
+        '<stop offset="0%" stop-color="#0d2137"/>'
+        '<stop offset="100%" stop-color="#0d1117"/>'
+        '<animate attributeName="cx" values="20%;80%;20%" dur="10s" repeatCount="indefinite"/>'
+        '<animate attributeName="cy" values="30%;70%;30%" dur="12s" repeatCount="indefinite"/>'
+        '</radialGradient>'
+        '<radialGradient id="bg2" cx="80%" cy="70%" r="50%">'
+        '<stop offset="0%" stop-color="#0a1a2e" stop-opacity="0.8"/>'
+        '<stop offset="100%" stop-color="#0d1117" stop-opacity="0"/>'
+        '</radialGradient>'
+    )
 
-    # terminal glow
-    lines.append('''<filter id="termglow">
-  <feGaussianBlur stdDeviation="8" result="blur"/>
-  <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-</filter>
-<filter id="cyanglow">
-  <feGaussianBlur stdDeviation="3" result="blur"/>
-  <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-</filter>
-<filter id="softglow">
-  <feGaussianBlur stdDeviation="6" result="b"/>
-  <feComposite in="b" in2="SourceGraphic" operator="over"/>
-</filter>''')
+    lines.append(
+        '<filter id="termglow">'
+        '<feGaussianBlur stdDeviation="8" result="blur"/>'
+        '<feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>'
+        '</filter>'
+    )
 
-    # glass gradient for terminal body
-    lines.append('''<linearGradient id="glass" x1="0%" y1="0%" x2="0%" y2="100%">
-  <stop offset="0%" stop-color="#161b22" stop-opacity="0.95"/>
-  <stop offset="100%" stop-color="#0d1117" stop-opacity="0.98"/>
-</linearGradient>
-<linearGradient id="headerGrad" x1="0%" y1="0%" x2="0%" y2="100%">
-  <stop offset="0%" stop-color="#1c2128"/>
-  <stop offset="100%" stop-color="#161b22"/>
-</linearGradient>
-<linearGradient id="borderGlow" x1="0%" y1="0%" x2="100%" y2="100%">
-  <stop offset="0%" stop-color="#00ffcc" stop-opacity="0.6"/>
-  <stop offset="50%" stop-color="#0ea5e9" stop-opacity="0.3"/>
-  <stop offset="100%" stop-color="#7c3aed" stop-opacity="0.6"/>
-  <animate attributeName="x1" values="0%;100%;0%" dur="4s" repeatCount="indefinite"/>
-  <animate attributeName="x2" values="100%;0%;100%" dur="4s" repeatCount="indefinite"/>
-</linearGradient>''')
+    lines.append(
+        '<linearGradient id="glass" x1="0%" y1="0%" x2="0%" y2="100%">'
+        '<stop offset="0%" stop-color="#161b22" stop-opacity="0.95"/>'
+        '<stop offset="100%" stop-color="#0d1117" stop-opacity="0.98"/>'
+        '</linearGradient>'
+        '<linearGradient id="headerGrad" x1="0%" y1="0%" x2="0%" y2="100%">'
+        '<stop offset="0%" stop-color="#1c2128"/>'
+        '<stop offset="100%" stop-color="#161b22"/>'
+        '</linearGradient>'
+        '<linearGradient id="borderGlow" x1="0%" y1="0%" x2="100%" y2="100%">'
+        '<stop offset="0%" stop-color="#00ffcc" stop-opacity="0.6"/>'
+        '<stop offset="50%" stop-color="#0ea5e9" stop-opacity="0.3"/>'
+        '<stop offset="100%" stop-color="#7c3aed" stop-opacity="0.6"/>'
+        '<animate attributeName="x1" values="0%;100%;0%" dur="4s" repeatCount="indefinite"/>'
+        '<animate attributeName="x2" values="100%;0%;100%" dur="4s" repeatCount="indefinite"/>'
+        '</linearGradient>'
+    )
 
-    # scanline pattern
-    lines.append('''<pattern id="scanlines" x="0" y="0" width="900" height="3" patternUnits="userSpaceOnUse">
-  <line x1="0" y1="1" x2="900" y2="1" stroke="white" stroke-opacity="0.03" stroke-width="1"/>
-</pattern>''')
+    lines.append(
+        '<pattern id="scanlines" x="0" y="0" width="900" height="3" patternUnits="userSpaceOnUse">'
+        '<line x1="0" y1="1" x2="900" y2="1" stroke="white" stroke-opacity="0.03" stroke-width="1"/>'
+        '</pattern>'
+        '<pattern id="grid" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">'
+        '<path d="M 40 0 L 0 0 0 40" fill="none" stroke="#ffffff" stroke-width="0.3" stroke-opacity="0.04"/>'
+        '</pattern>'
+    )
 
-    # grid pattern
-    lines.append('''<pattern id="grid" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
-  <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#ffffff" stroke-width="0.3" stroke-opacity="0.04"/>
-</pattern>''')
-
-    # clip for terminal body
     lines.append('<clipPath id="termclip"><rect x="30" y="30" width="840" height="460" rx="14"/></clipPath>')
-    lines.append('<clipPath id="bgclip"><rect width="900" height="520" rx="0"/></clipPath>')
-
     lines.append('</defs>')
 
-    # ── background ────────────────────────────────────────────────────────────
+    # background
     lines.append(f'<rect width="{W}" height="{H}" fill="url(#bg1)"/>')
     lines.append(f'<rect width="{W}" height="{H}" fill="url(#bg2)"/>')
-    lines.append(f'<rect width="{W}" height="{H}" fill="url(#grid)" opacity="1"/>')
+    lines.append(f'<rect width="{W}" height="{H}" fill="url(#grid)"/>')
 
-    # floating particles
-    pts = [(random.randint(50,850), random.randint(50,470), random.uniform(0.3,1.2), random.uniform(3,9))
+    # particles
+    pts = [(random.randint(50,850), random.randint(50,470),
+            round(random.uniform(0.3,1.2),1), round(random.uniform(3,9),1))
            for _ in range(28)]
     for px,py,pr,pdur in pts:
         dy = random.randint(-30,30)
         lines.append(
-            f'<circle cx="{px}" cy="{py}" r="{pr:.1f}" fill="#00ffcc" opacity="0.18">'
-            f'<animate attributeName="cy" values="{py};{py+dy};{py}" dur="{pdur:.1f}s" repeatCount="indefinite"/>'
-            f'<animate attributeName="opacity" values="0.05;0.25;0.05" dur="{pdur:.1f}s" repeatCount="indefinite"/>'
+            f'<circle cx="{px}" cy="{py}" r="{pr}" fill="#00ffcc" opacity="0.15">'
+            f'<animate attributeName="cy" values="{py};{py+dy};{py}" dur="{pdur}s" repeatCount="indefinite"/>'
+            f'<animate attributeName="opacity" values="0.05;0.25;0.05" dur="{pdur}s" repeatCount="indefinite"/>'
             f'</circle>'
         )
 
-    # ── terminal card shadow ──────────────────────────────────────────────────
-    # outer glow border (pulsing)
-    lines.append('<rect x="28" y="28" width="844" height="464" rx="15" fill="none" stroke="url(#borderGlow)" stroke-width="2">')
-    lines.append('<animate attributeName="stroke-opacity" values="0.7;1;0.7" dur="3s" repeatCount="indefinite"/>')
-    lines.append('</rect>')
+    # border glow
+    lines.append(
+        '<rect x="28" y="28" width="844" height="464" rx="15" fill="none" stroke="url(#borderGlow)" stroke-width="2">'
+        '<animate attributeName="stroke-opacity" values="0.7;1;0.7" dur="3s" repeatCount="indefinite"/>'
+        '</rect>'
+    )
 
-    # floating animation wrapper (use translate)
+    # floating group
     lines.append('<g>')
-    lines.append('<animateTransform attributeName="transform" type="translate" values="0 0;0 -4;0 0" dur="4s" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/>')
+    lines.append(
+        '<animateTransform attributeName="transform" type="translate" '
+        'values="0 0;0 -4;0 0" dur="4s" repeatCount="indefinite" '
+        'calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/>'
+    )
 
-    # terminal body
     lines.append('<rect x="30" y="30" width="840" height="460" rx="14" fill="url(#glass)" stroke="#30363d" stroke-width="1"/>')
-
-    # glass sheen (top reflection)
     lines.append('<rect x="30" y="30" width="840" height="80" rx="14" fill="white" fill-opacity="0.025" clip-path="url(#termclip)"/>')
-
-    # header bar
     lines.append('<rect x="30" y="30" width="840" height="44" rx="14" fill="url(#headerGrad)"/>')
     lines.append('<rect x="30" y="58" width="840" height="16" fill="url(#headerGrad)"/>')
     lines.append('<line x1="30" y1="74" x2="870" y2="74" stroke="#30363d" stroke-width="1"/>')
 
-    # macOS buttons
-    btns = [("#ff5f57","#ff5f57",55), ("#febc2e","#febc2e",79), ("#28c840","#28c840",103)]
-    for fc,sc,bx in btns:
-        lines.append(f'<circle cx="{bx}" cy="52" r="7" fill="{fc}" stroke="{sc}" stroke-width="0.5"/>')
+    for fc, bx in [("#ff5f57",55),("#febc2e",79),("#28c840",103)]:
+        lines.append(f'<circle cx="{bx}" cy="52" r="7" fill="{fc}"/>')
 
-    # title
     lines.append('<text x="450" y="57" text-anchor="middle" fill="#8b949e" font-size="13" font-family="ui-monospace,monospace">~/portfolio</text>')
-
-    # scanlines overlay
     lines.append('<rect x="30" y="74" width="840" height="416" fill="url(#scanlines)" clip-path="url(#termclip)"/>')
 
-    # animated scan line sweep
-    lines.append('<rect x="30" y="74" width="840" height="2" fill="white" fill-opacity="0.04" clip-path="url(#termclip)">')
-    lines.append('<animate attributeName="y" values="74;490;74" dur="5s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>')
-    lines.append('</rect>')
+    # scan sweep
+    lines.append(
+        '<rect x="30" y="74" width="840" height="2" fill="white" fill-opacity="0.04" clip-path="url(#termclip)">'
+        '<animate attributeName="y" values="74;490;74" dur="5s" repeatCount="indefinite" '
+        'calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>'
+        '</rect>'
+    )
 
-    # ── terminal content ──────────────────────────────────────────────────────
-    # Prompt line with typewriter
-    TX = 56  # text x start
-
-    # typing animation for "$ whoami" using SMIL visibility
+    # typewriter
+    TX = 56
     prompt_chars = list("$ whoami")
+    typing_dur = 8.0
+    char_dur   = 0.12
+    delete_start = 1.5
+
     lines.append('<text x="56" y="106" font-family="ui-monospace,Menlo,monospace" font-size="14" fill="#00ffcc">')
-    # We'll show the prompt character by character using tspan + visibility animation
-    # Each char appears at: char_index * 0.15s delay
-    typing_dur = 8.0   # total loop
-    char_dur   = 0.12  # seconds per character
-    delete_start = 1.5  # pause before delete
     for i, ch in enumerate(prompt_chars):
-        appear = i * char_dur
-        vanish = len(prompt_chars) * char_dur + delete_start + (len(prompt_chars) - i - 1) * char_dur * 0.5
-        a0 = appear / typing_dur
-        a1 = vanish / typing_dur
-        a1 = min(a1, 0.98)
+        a0 = i * char_dur / typing_dur
+        a1 = min((len(prompt_chars) * char_dur + delete_start + (len(prompt_chars)-i-1)*char_dur*0.5) / typing_dur, 0.98)
         lines.append(
             f'<tspan opacity="0">{ch}'
             f'<animate attributeName="opacity" values="0;0;1;1;0;0" '
@@ -280,57 +278,52 @@ def build_terminal():
         )
     lines.append('</text>')
 
-    # blinking cursor
-    lines.append('<rect x="56" y="92" width="8" height="14" fill="#00ffcc" rx="1">')
-    lines.append(f'<animate attributeName="x" values="{56};{56 + len(prompt_chars)*8.5:.0f};{56}" '
-                 f'keyTimes="0;{len(prompt_chars)*char_dur/typing_dur:.3f};1" '
-                 f'dur="{typing_dur}s" repeatCount="indefinite"/>')
-    lines.append('<animate attributeName="opacity" values="1;0;1" dur="0.8s" repeatCount="indefinite"/>')
-    lines.append('</rect>')
+    # cursor
+    lines.append(
+        f'<rect x="56" y="92" width="8" height="14" fill="#00ffcc" rx="1">'
+        f'<animate attributeName="x" values="{56};{56+len(prompt_chars)*8.5:.0f};{56}" '
+        f'keyTimes="0;{len(prompt_chars)*char_dur/typing_dur:.3f};1" '
+        f'dur="{typing_dur}s" repeatCount="indefinite"/>'
+        f'<animate attributeName="opacity" values="1;0;1" dur="0.8s" repeatCount="indefinite"/>'
+        f'</rect>'
+    )
 
-    # ── content sections reveal ────────────────────────────────────────────────
-    # Each section fades in with a delay, all content after the typing completes
-    reveal_start = len(prompt_chars) * char_dur + 0.3  # seconds after typing
+    # content sections
+    reveal_start = len(prompt_chars) * char_dur + 0.3
     sections = [
-        ("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━", "#30363d", 120, False),
-        ("👤 Name:", "#8b949e", 138, False),
-        ("   Lohitha Damisetti", "#e6edf3", 154, False),
-        ("💻 Role:", "#8b949e", 172, False),
-        ("   Full Stack Developer", "#00ffcc", 188, False),
-        ("🚀 Stack:  React · Next.js · Node.js · TypeScript · Python", "#8b949e", 206, False),
-        ("⚡ Interests:  AI · Open Source · Backend · Cloud", "#8b949e", 224, False),
-        ("🏆 GitHub:  120 repositories", "#8b949e", 242, False),
-        ("⭐ Stars:  450+", "#febc2e", 260, False),
-        ("🔥 Current Focus:", "#8b949e", 278, False),
-        ("   Building modern web experiences", "#39d353", 294, False),
-        ("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━", "#30363d", 312, False),
+        ("----------------------------------------------------", "#30363d", 122),
+        ("Name:  Lohitha Damisetti",                           "#e6edf3", 140),
+        ("Role:  Full Stack Developer",                        "#00ffcc", 158),
+        ("Stack: React  Next.js  Node.js  TypeScript  Python", "#8b949e", 176),
+        ("AI  Open Source  Backend  Cloud",                    "#8b949e", 194),
+        ("GitHub:  120 repositories",                          "#8b949e", 212),
+        ("Stars:   450+",                                      "#febc2e", 230),
+        ("Focus:   Building modern web experiences",           "#39d353", 248),
+        ("----------------------------------------------------", "#30363d", 266),
     ]
 
-    sec_delay_each = 0.25  # seconds between sections appearing
-    for idx, (text, color, y_pos, bold) in enumerate(sections):
-        appear_t = (reveal_start + idx * sec_delay_each) / typing_dur
-        appear_t = min(appear_t, 0.97)
-        weight = "bold" if bold else "normal"
+    for idx, (text, color, y_pos) in enumerate(sections):
+        at = min((reveal_start + idx * 0.28) / typing_dur, 0.97)
         lines.append(
             f'<text x="{TX}" y="{y_pos}" font-family="ui-monospace,Menlo,monospace" '
-            f'font-size="12.5" fill="{color}" font-weight="{weight}" opacity="0">'
+            f'font-size="12.5" fill="{color}" opacity="0">'
             f'{text}'
             f'<animate attributeName="opacity" values="0;0;1;1" '
-            f'keyTimes="0;{appear_t:.3f};{min(appear_t+0.04,0.99):.3f};1" '
+            f'keyTimes="0;{at:.3f};{min(at+0.04,0.99):.3f};1" '
             f'dur="{typing_dur}s" repeatCount="indefinite"/>'
             f'</text>'
         )
 
-    lines.append('</g>')  # close floating group
+    lines.append('</g>')
     lines.append('</svg>')
     return "\n".join(lines)
 
 
-# ── write files ───────────────────────────────────────────────────────────────
-with open("github-contribution-animation.svg","w",encoding="utf-8") as f:
+# write files
+with open("github-contribution-animation.svg", "w", encoding="utf-8") as f:
     f.write(build_contrib())
 print("[OK] github-contribution-animation.svg written")
 
-with open("terminal-card.svg","w",encoding="utf-8") as f:
+with open("terminal-card.svg", "w", encoding="utf-8") as f:
     f.write(build_terminal())
 print("[OK] terminal-card.svg written")
