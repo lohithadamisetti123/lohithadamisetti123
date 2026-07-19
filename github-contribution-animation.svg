@@ -1,0 +1,1519 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="165" viewBox="0 0 850 165">
+<defs>
+<clipPath id="card-clip"><rect width="850" height="165" rx="16"/></clipPath>
+<linearGradient id="sweep" x1="0%" y1="0%" x2="100%" y2="100%">
+  <stop offset="0%" stop-color="white" stop-opacity="0"/>
+  <stop offset="45%" stop-color="white" stop-opacity="0.06"/>
+  <stop offset="55%" stop-color="white" stop-opacity="0.12"/>
+  <stop offset="100%" stop-color="white" stop-opacity="0"/>
+</linearGradient>
+<filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+  <feGaussianBlur stdDeviation="1.5" result="blur"/>
+  <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+</filter>
+</defs>
+<rect width="850" height="165" rx="16" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+<text x="34" y="18" fill="#8b949e" font-size="10" font-family="system-ui,sans-serif">Jan</text>
+<text x="90" y="18" fill="#8b949e" font-size="10" font-family="system-ui,sans-serif">Feb</text>
+<text x="160" y="18" fill="#8b949e" font-size="10" font-family="system-ui,sans-serif">Mar</text>
+<text x="216" y="18" fill="#8b949e" font-size="10" font-family="system-ui,sans-serif">Apr</text>
+<text x="286" y="18" fill="#8b949e" font-size="10" font-family="system-ui,sans-serif">May</text>
+<text x="342" y="18" fill="#8b949e" font-size="10" font-family="system-ui,sans-serif">Jun</text>
+<text x="398" y="18" fill="#8b949e" font-size="10" font-family="system-ui,sans-serif">Jul</text>
+<text x="468" y="18" fill="#8b949e" font-size="10" font-family="system-ui,sans-serif">Aug</text>
+<text x="524" y="18" fill="#8b949e" font-size="10" font-family="system-ui,sans-serif">Sep</text>
+<text x="594" y="18" fill="#8b949e" font-size="10" font-family="system-ui,sans-serif">Oct</text>
+<text x="650" y="18" fill="#8b949e" font-size="10" font-family="system-ui,sans-serif">Nov</text>
+<text x="720" y="18" fill="#8b949e" font-size="10" font-family="system-ui,sans-serif">Dec</text>
+<text x="0" y="38" fill="#8b949e" font-size="9" font-family="system-ui,sans-serif">Mon</text>
+<text x="0" y="66" fill="#8b949e" font-size="9" font-family="system-ui,sans-serif">Wed</text>
+<text x="0" y="94" fill="#8b949e" font-size="9" font-family="system-ui,sans-serif">Fri</text>
+<rect id="s0_0" x="34" y="28" width="11" height="11" rx="2" fill="#006d32">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.0000;0.0600;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.0000;0.0300;0.0600" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s0_1" x="34" y="42" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.0000;0.0600;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.0000;0.0300;0.0600" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s0_2" x="34" y="56" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.0000;0.0600;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.0000;0.0300;0.0600" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s0_3" x="34" y="70" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.0000;0.0600;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.0000;0.0300;0.0600" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s0_4" x="34" y="84" width="11" height="11" rx="2" fill="#26a641" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.0000;0.0600;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.0000;0.0300;0.0600" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s0_5" x="34" y="98" width="11" height="11" rx="2" fill="#006d32">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.0000;0.0600;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.0000;0.0300;0.0600" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s0_6" x="34" y="112" width="11" height="11" rx="2" fill="#39d353" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.0000;0.0600;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.0000;0.0300;0.0600" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s1_0" x="48" y="28" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.0126;0.0726;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.0126;0.0426;0.0726" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s1_1" x="48" y="42" width="11" height="11" rx="2" fill="#0e4429">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.0126;0.0726;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.0126;0.0426;0.0726" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s1_2" x="48" y="56" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.0126;0.0726;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.0126;0.0426;0.0726" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s1_3" x="48" y="70" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.0126;0.0726;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.0126;0.0426;0.0726" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s1_4" x="48" y="84" width="11" height="11" rx="2" fill="#0e4429">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.0126;0.0726;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.0126;0.0426;0.0726" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s1_5" x="48" y="98" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.0126;0.0726;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.0126;0.0426;0.0726" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s1_6" x="48" y="112" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.0126;0.0726;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.0126;0.0426;0.0726" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s2_0" x="62" y="28" width="11" height="11" rx="2" fill="#006d32">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.0252;0.0852;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.0252;0.0552;0.0852" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s2_1" x="62" y="42" width="11" height="11" rx="2" fill="#0e4429">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.0252;0.0852;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.0252;0.0552;0.0852" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s2_2" x="62" y="56" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.0252;0.0852;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.0252;0.0552;0.0852" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s2_3" x="62" y="70" width="11" height="11" rx="2" fill="#006d32">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.0252;0.0852;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.0252;0.0552;0.0852" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s2_4" x="62" y="84" width="11" height="11" rx="2" fill="#26a641" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.0252;0.0852;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.0252;0.0552;0.0852" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s2_5" x="62" y="98" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.0252;0.0852;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.0252;0.0552;0.0852" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s2_6" x="62" y="112" width="11" height="11" rx="2" fill="#26a641" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.0252;0.0852;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.0252;0.0552;0.0852" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s3_0" x="76" y="28" width="11" height="11" rx="2" fill="#006d32">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.0377;0.0977;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.0377;0.0677;0.0977" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s3_1" x="76" y="42" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.0377;0.0977;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.0377;0.0677;0.0977" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s3_2" x="76" y="56" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.0377;0.0977;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.0377;0.0677;0.0977" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s3_3" x="76" y="70" width="11" height="11" rx="2" fill="#39d353" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.0377;0.0977;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.0377;0.0677;0.0977" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s3_4" x="76" y="84" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.0377;0.0977;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.0377;0.0677;0.0977" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s3_5" x="76" y="98" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.0377;0.0977;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.0377;0.0677;0.0977" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s3_6" x="76" y="112" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.0377;0.0977;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.0377;0.0677;0.0977" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s4_0" x="90" y="28" width="11" height="11" rx="2" fill="#26a641" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.0503;0.1103;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.0503;0.0803;0.1103" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s4_1" x="90" y="42" width="11" height="11" rx="2" fill="#006d32">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.0503;0.1103;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.0503;0.0803;0.1103" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s4_2" x="90" y="56" width="11" height="11" rx="2" fill="#26a641" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.0503;0.1103;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.0503;0.0803;0.1103" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s4_3" x="90" y="70" width="11" height="11" rx="2" fill="#26a641" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.0503;0.1103;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.0503;0.0803;0.1103" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s4_4" x="90" y="84" width="11" height="11" rx="2" fill="#0e4429">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.0503;0.1103;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.0503;0.0803;0.1103" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s4_5" x="90" y="98" width="11" height="11" rx="2" fill="#39d353" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.0503;0.1103;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.0503;0.0803;0.1103" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s4_6" x="90" y="112" width="11" height="11" rx="2" fill="#0e4429">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.0503;0.1103;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.0503;0.0803;0.1103" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s5_0" x="104" y="28" width="11" height="11" rx="2" fill="#006d32">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.0629;0.1229;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.0629;0.0929;0.1229" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s5_1" x="104" y="42" width="11" height="11" rx="2" fill="#26a641" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.0629;0.1229;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.0629;0.0929;0.1229" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s5_2" x="104" y="56" width="11" height="11" rx="2" fill="#006d32">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.0629;0.1229;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.0629;0.0929;0.1229" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s5_3" x="104" y="70" width="11" height="11" rx="2" fill="#26a641" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.0629;0.1229;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.0629;0.0929;0.1229" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s5_4" x="104" y="84" width="11" height="11" rx="2" fill="#006d32">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.0629;0.1229;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.0629;0.0929;0.1229" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s5_5" x="104" y="98" width="11" height="11" rx="2" fill="#006d32">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.0629;0.1229;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.0629;0.0929;0.1229" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s5_6" x="104" y="112" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.0629;0.1229;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.0629;0.0929;0.1229" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s6_0" x="118" y="28" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.0755;0.1355;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.0755;0.1055;0.1355" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s6_1" x="118" y="42" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.0755;0.1355;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.0755;0.1055;0.1355" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s6_2" x="118" y="56" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.0755;0.1355;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.0755;0.1055;0.1355" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s6_3" x="118" y="70" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.0755;0.1355;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.0755;0.1055;0.1355" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s6_4" x="118" y="84" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.0755;0.1355;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.0755;0.1055;0.1355" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s6_5" x="118" y="98" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.0755;0.1355;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.0755;0.1055;0.1355" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s6_6" x="118" y="112" width="11" height="11" rx="2" fill="#006d32">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.0755;0.1355;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.0755;0.1055;0.1355" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s7_0" x="132" y="28" width="11" height="11" rx="2" fill="#0e4429">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.0881;0.1481;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.0881;0.1181;0.1481" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s7_1" x="132" y="42" width="11" height="11" rx="2" fill="#0e4429">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.0881;0.1481;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.0881;0.1181;0.1481" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s7_2" x="132" y="56" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.0881;0.1481;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.0881;0.1181;0.1481" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s7_3" x="132" y="70" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.0881;0.1481;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.0881;0.1181;0.1481" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s7_4" x="132" y="84" width="11" height="11" rx="2" fill="#39d353" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.0881;0.1481;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.0881;0.1181;0.1481" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s7_5" x="132" y="98" width="11" height="11" rx="2" fill="#006d32">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.0881;0.1481;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.0881;0.1181;0.1481" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s7_6" x="132" y="112" width="11" height="11" rx="2" fill="#006d32">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.0881;0.1481;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.0881;0.1181;0.1481" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s8_0" x="146" y="28" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.1006;0.1606;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.1006;0.1306;0.1606" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s8_1" x="146" y="42" width="11" height="11" rx="2" fill="#26a641" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.1006;0.1606;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.1006;0.1306;0.1606" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s8_2" x="146" y="56" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.1006;0.1606;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.1006;0.1306;0.1606" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s8_3" x="146" y="70" width="11" height="11" rx="2" fill="#0e4429">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.1006;0.1606;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.1006;0.1306;0.1606" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s8_4" x="146" y="84" width="11" height="11" rx="2" fill="#39d353" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.1006;0.1606;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.1006;0.1306;0.1606" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s8_5" x="146" y="98" width="11" height="11" rx="2" fill="#006d32">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.1006;0.1606;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.1006;0.1306;0.1606" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s8_6" x="146" y="112" width="11" height="11" rx="2" fill="#006d32">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.1006;0.1606;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.1006;0.1306;0.1606" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s9_0" x="160" y="28" width="11" height="11" rx="2" fill="#006d32">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.1132;0.1732;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.1132;0.1432;0.1732" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s9_1" x="160" y="42" width="11" height="11" rx="2" fill="#26a641" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.1132;0.1732;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.1132;0.1432;0.1732" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s9_2" x="160" y="56" width="11" height="11" rx="2" fill="#26a641" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.1132;0.1732;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.1132;0.1432;0.1732" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s9_3" x="160" y="70" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.1132;0.1732;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.1132;0.1432;0.1732" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s9_4" x="160" y="84" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.1132;0.1732;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.1132;0.1432;0.1732" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s9_5" x="160" y="98" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.1132;0.1732;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.1132;0.1432;0.1732" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s9_6" x="160" y="112" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.1132;0.1732;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.1132;0.1432;0.1732" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s10_0" x="174" y="28" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.1258;0.1858;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.1258;0.1558;0.1858" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s10_1" x="174" y="42" width="11" height="11" rx="2" fill="#39d353" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.1258;0.1858;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.1258;0.1558;0.1858" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s10_2" x="174" y="56" width="11" height="11" rx="2" fill="#39d353" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.1258;0.1858;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.1258;0.1558;0.1858" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s10_3" x="174" y="70" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.1258;0.1858;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.1258;0.1558;0.1858" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s10_4" x="174" y="84" width="11" height="11" rx="2" fill="#006d32">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.1258;0.1858;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.1258;0.1558;0.1858" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s10_5" x="174" y="98" width="11" height="11" rx="2" fill="#0e4429">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.1258;0.1858;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.1258;0.1558;0.1858" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s10_6" x="174" y="112" width="11" height="11" rx="2" fill="#39d353" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.1258;0.1858;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.1258;0.1558;0.1858" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s11_0" x="188" y="28" width="11" height="11" rx="2" fill="#0e4429">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.1384;0.1984;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.1384;0.1684;0.1984" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s11_1" x="188" y="42" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.1384;0.1984;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.1384;0.1684;0.1984" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s11_2" x="188" y="56" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.1384;0.1984;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.1384;0.1684;0.1984" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s11_3" x="188" y="70" width="11" height="11" rx="2" fill="#006d32">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.1384;0.1984;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.1384;0.1684;0.1984" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s11_4" x="188" y="84" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.1384;0.1984;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.1384;0.1684;0.1984" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s11_5" x="188" y="98" width="11" height="11" rx="2" fill="#006d32">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.1384;0.1984;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.1384;0.1684;0.1984" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s11_6" x="188" y="112" width="11" height="11" rx="2" fill="#39d353" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.1384;0.1984;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.1384;0.1684;0.1984" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s12_0" x="202" y="28" width="11" height="11" rx="2" fill="#0e4429">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.1509;0.2109;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.1509;0.1809;0.2109" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s12_1" x="202" y="42" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.1509;0.2109;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.1509;0.1809;0.2109" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s12_2" x="202" y="56" width="11" height="11" rx="2" fill="#39d353" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.1509;0.2109;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.1509;0.1809;0.2109" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s12_3" x="202" y="70" width="11" height="11" rx="2" fill="#0e4429">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.1509;0.2109;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.1509;0.1809;0.2109" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s12_4" x="202" y="84" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.1509;0.2109;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.1509;0.1809;0.2109" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s12_5" x="202" y="98" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.1509;0.2109;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.1509;0.1809;0.2109" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s12_6" x="202" y="112" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.1509;0.2109;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.1509;0.1809;0.2109" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s13_0" x="216" y="28" width="11" height="11" rx="2" fill="#006d32">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.1635;0.2235;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.1635;0.1935;0.2235" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s13_1" x="216" y="42" width="11" height="11" rx="2" fill="#26a641" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.1635;0.2235;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.1635;0.1935;0.2235" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s13_2" x="216" y="56" width="11" height="11" rx="2" fill="#0e4429">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.1635;0.2235;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.1635;0.1935;0.2235" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s13_3" x="216" y="70" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.1635;0.2235;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.1635;0.1935;0.2235" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s13_4" x="216" y="84" width="11" height="11" rx="2" fill="#0e4429">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.1635;0.2235;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.1635;0.1935;0.2235" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s13_5" x="216" y="98" width="11" height="11" rx="2" fill="#39d353" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.1635;0.2235;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.1635;0.1935;0.2235" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s13_6" x="216" y="112" width="11" height="11" rx="2" fill="#0e4429">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.1635;0.2235;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.1635;0.1935;0.2235" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s14_0" x="230" y="28" width="11" height="11" rx="2" fill="#39d353" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.1761;0.2361;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.1761;0.2061;0.2361" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s14_1" x="230" y="42" width="11" height="11" rx="2" fill="#26a641" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.1761;0.2361;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.1761;0.2061;0.2361" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s14_2" x="230" y="56" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.1761;0.2361;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.1761;0.2061;0.2361" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s14_3" x="230" y="70" width="11" height="11" rx="2" fill="#26a641" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.1761;0.2361;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.1761;0.2061;0.2361" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s14_4" x="230" y="84" width="11" height="11" rx="2" fill="#006d32">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.1761;0.2361;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.1761;0.2061;0.2361" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s14_5" x="230" y="98" width="11" height="11" rx="2" fill="#0e4429">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.1761;0.2361;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.1761;0.2061;0.2361" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s14_6" x="230" y="112" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.1761;0.2361;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.1761;0.2061;0.2361" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s15_0" x="244" y="28" width="11" height="11" rx="2" fill="#006d32">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.1887;0.2487;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.1887;0.2187;0.2487" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s15_1" x="244" y="42" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.1887;0.2487;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.1887;0.2187;0.2487" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s15_2" x="244" y="56" width="11" height="11" rx="2" fill="#0e4429">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.1887;0.2487;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.1887;0.2187;0.2487" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s15_3" x="244" y="70" width="11" height="11" rx="2" fill="#0e4429">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.1887;0.2487;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.1887;0.2187;0.2487" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s15_4" x="244" y="84" width="11" height="11" rx="2" fill="#39d353" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.1887;0.2487;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.1887;0.2187;0.2487" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s15_5" x="244" y="98" width="11" height="11" rx="2" fill="#39d353" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.1887;0.2487;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.1887;0.2187;0.2487" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s15_6" x="244" y="112" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.1887;0.2487;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.1887;0.2187;0.2487" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s16_0" x="258" y="28" width="11" height="11" rx="2" fill="#0e4429">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.2013;0.2613;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.2013;0.2313;0.2613" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s16_1" x="258" y="42" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.2013;0.2613;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.2013;0.2313;0.2613" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s16_2" x="258" y="56" width="11" height="11" rx="2" fill="#39d353" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.2013;0.2613;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.2013;0.2313;0.2613" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s16_3" x="258" y="70" width="11" height="11" rx="2" fill="#39d353" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.2013;0.2613;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.2013;0.2313;0.2613" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s16_4" x="258" y="84" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.2013;0.2613;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.2013;0.2313;0.2613" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s16_5" x="258" y="98" width="11" height="11" rx="2" fill="#006d32">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.2013;0.2613;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.2013;0.2313;0.2613" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s16_6" x="258" y="112" width="11" height="11" rx="2" fill="#006d32">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.2013;0.2613;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.2013;0.2313;0.2613" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s17_0" x="272" y="28" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.2138;0.2738;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.2138;0.2438;0.2738" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s17_1" x="272" y="42" width="11" height="11" rx="2" fill="#26a641" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.2138;0.2738;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.2138;0.2438;0.2738" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s17_2" x="272" y="56" width="11" height="11" rx="2" fill="#0e4429">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.2138;0.2738;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.2138;0.2438;0.2738" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s17_3" x="272" y="70" width="11" height="11" rx="2" fill="#26a641" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.2138;0.2738;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.2138;0.2438;0.2738" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s17_4" x="272" y="84" width="11" height="11" rx="2" fill="#0e4429">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.2138;0.2738;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.2138;0.2438;0.2738" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s17_5" x="272" y="98" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.2138;0.2738;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.2138;0.2438;0.2738" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s17_6" x="272" y="112" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.2138;0.2738;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.2138;0.2438;0.2738" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s18_0" x="286" y="28" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.2264;0.2864;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.2264;0.2564;0.2864" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s18_1" x="286" y="42" width="11" height="11" rx="2" fill="#39d353" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.2264;0.2864;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.2264;0.2564;0.2864" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s18_2" x="286" y="56" width="11" height="11" rx="2" fill="#39d353" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.2264;0.2864;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.2264;0.2564;0.2864" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s18_3" x="286" y="70" width="11" height="11" rx="2" fill="#26a641" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.2264;0.2864;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.2264;0.2564;0.2864" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s18_4" x="286" y="84" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.2264;0.2864;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.2264;0.2564;0.2864" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s18_5" x="286" y="98" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.2264;0.2864;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.2264;0.2564;0.2864" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s18_6" x="286" y="112" width="11" height="11" rx="2" fill="#39d353" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.2264;0.2864;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.2264;0.2564;0.2864" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s19_0" x="300" y="28" width="11" height="11" rx="2" fill="#39d353" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.2390;0.2990;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.2390;0.2690;0.2990" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s19_1" x="300" y="42" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.2390;0.2990;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.2390;0.2690;0.2990" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s19_2" x="300" y="56" width="11" height="11" rx="2" fill="#0e4429">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.2390;0.2990;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.2390;0.2690;0.2990" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s19_3" x="300" y="70" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.2390;0.2990;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.2390;0.2690;0.2990" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s19_4" x="300" y="84" width="11" height="11" rx="2" fill="#26a641" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.2390;0.2990;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.2390;0.2690;0.2990" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s19_5" x="300" y="98" width="11" height="11" rx="2" fill="#26a641" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.2390;0.2990;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.2390;0.2690;0.2990" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s19_6" x="300" y="112" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.2390;0.2990;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.2390;0.2690;0.2990" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s20_0" x="314" y="28" width="11" height="11" rx="2" fill="#0e4429">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.2516;0.3116;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.2516;0.2816;0.3116" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s20_1" x="314" y="42" width="11" height="11" rx="2" fill="#0e4429">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.2516;0.3116;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.2516;0.2816;0.3116" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s20_2" x="314" y="56" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.2516;0.3116;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.2516;0.2816;0.3116" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s20_3" x="314" y="70" width="11" height="11" rx="2" fill="#39d353" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.2516;0.3116;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.2516;0.2816;0.3116" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s20_4" x="314" y="84" width="11" height="11" rx="2" fill="#0e4429">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.2516;0.3116;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.2516;0.2816;0.3116" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s20_5" x="314" y="98" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.2516;0.3116;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.2516;0.2816;0.3116" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s20_6" x="314" y="112" width="11" height="11" rx="2" fill="#0e4429">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.2516;0.3116;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.2516;0.2816;0.3116" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s21_0" x="328" y="28" width="11" height="11" rx="2" fill="#26a641" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.2642;0.3242;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.2642;0.2942;0.3242" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s21_1" x="328" y="42" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.2642;0.3242;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.2642;0.2942;0.3242" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s21_2" x="328" y="56" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.2642;0.3242;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.2642;0.2942;0.3242" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s21_3" x="328" y="70" width="11" height="11" rx="2" fill="#39d353" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.2642;0.3242;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.2642;0.2942;0.3242" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s21_4" x="328" y="84" width="11" height="11" rx="2" fill="#006d32">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.2642;0.3242;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.2642;0.2942;0.3242" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s21_5" x="328" y="98" width="11" height="11" rx="2" fill="#0e4429">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.2642;0.3242;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.2642;0.2942;0.3242" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s21_6" x="328" y="112" width="11" height="11" rx="2" fill="#0e4429">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.2642;0.3242;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.2642;0.2942;0.3242" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s22_0" x="342" y="28" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.2767;0.3367;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.2767;0.3067;0.3367" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s22_1" x="342" y="42" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.2767;0.3367;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.2767;0.3067;0.3367" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s22_2" x="342" y="56" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.2767;0.3367;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.2767;0.3067;0.3367" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s22_3" x="342" y="70" width="11" height="11" rx="2" fill="#006d32">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.2767;0.3367;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.2767;0.3067;0.3367" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s22_4" x="342" y="84" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.2767;0.3367;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.2767;0.3067;0.3367" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s22_5" x="342" y="98" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.2767;0.3367;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.2767;0.3067;0.3367" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s22_6" x="342" y="112" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.2767;0.3367;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.2767;0.3067;0.3367" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s23_0" x="356" y="28" width="11" height="11" rx="2" fill="#006d32">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.2893;0.3493;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.2893;0.3193;0.3493" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s23_1" x="356" y="42" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.2893;0.3493;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.2893;0.3193;0.3493" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s23_2" x="356" y="56" width="11" height="11" rx="2" fill="#39d353" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.2893;0.3493;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.2893;0.3193;0.3493" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s23_3" x="356" y="70" width="11" height="11" rx="2" fill="#26a641" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.2893;0.3493;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.2893;0.3193;0.3493" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s23_4" x="356" y="84" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.2893;0.3493;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.2893;0.3193;0.3493" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s23_5" x="356" y="98" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.2893;0.3493;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.2893;0.3193;0.3493" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s23_6" x="356" y="112" width="11" height="11" rx="2" fill="#006d32">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.2893;0.3493;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.2893;0.3193;0.3493" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s24_0" x="370" y="28" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.3019;0.3619;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.3019;0.3319;0.3619" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s24_1" x="370" y="42" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.3019;0.3619;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.3019;0.3319;0.3619" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s24_2" x="370" y="56" width="11" height="11" rx="2" fill="#39d353" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.3019;0.3619;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.3019;0.3319;0.3619" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s24_3" x="370" y="70" width="11" height="11" rx="2" fill="#006d32">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.3019;0.3619;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.3019;0.3319;0.3619" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s24_4" x="370" y="84" width="11" height="11" rx="2" fill="#0e4429">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.3019;0.3619;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.3019;0.3319;0.3619" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s24_5" x="370" y="98" width="11" height="11" rx="2" fill="#26a641" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.3019;0.3619;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.3019;0.3319;0.3619" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s24_6" x="370" y="112" width="11" height="11" rx="2" fill="#26a641" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.3019;0.3619;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.3019;0.3319;0.3619" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s25_0" x="384" y="28" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.3145;0.3745;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.3145;0.3445;0.3745" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s25_1" x="384" y="42" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.3145;0.3745;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.3145;0.3445;0.3745" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s25_2" x="384" y="56" width="11" height="11" rx="2" fill="#0e4429">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.3145;0.3745;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.3145;0.3445;0.3745" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s25_3" x="384" y="70" width="11" height="11" rx="2" fill="#0e4429">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.3145;0.3745;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.3145;0.3445;0.3745" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s25_4" x="384" y="84" width="11" height="11" rx="2" fill="#0e4429">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.3145;0.3745;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.3145;0.3445;0.3745" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s25_5" x="384" y="98" width="11" height="11" rx="2" fill="#26a641" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.3145;0.3745;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.3145;0.3445;0.3745" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s25_6" x="384" y="112" width="11" height="11" rx="2" fill="#006d32">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.3145;0.3745;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.3145;0.3445;0.3745" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s26_0" x="398" y="28" width="11" height="11" rx="2" fill="#39d353" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.3270;0.3870;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.3270;0.3570;0.3870" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s26_1" x="398" y="42" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.3270;0.3870;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.3270;0.3570;0.3870" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s26_2" x="398" y="56" width="11" height="11" rx="2" fill="#0e4429">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.3270;0.3870;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.3270;0.3570;0.3870" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s26_3" x="398" y="70" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.3270;0.3870;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.3270;0.3570;0.3870" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s26_4" x="398" y="84" width="11" height="11" rx="2" fill="#26a641" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.3270;0.3870;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.3270;0.3570;0.3870" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s26_5" x="398" y="98" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.3270;0.3870;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.3270;0.3570;0.3870" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s26_6" x="398" y="112" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.3270;0.3870;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.3270;0.3570;0.3870" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s27_0" x="412" y="28" width="11" height="11" rx="2" fill="#0e4429">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.3396;0.3996;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.3396;0.3696;0.3996" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s27_1" x="412" y="42" width="11" height="11" rx="2" fill="#0e4429">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.3396;0.3996;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.3396;0.3696;0.3996" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s27_2" x="412" y="56" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.3396;0.3996;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.3396;0.3696;0.3996" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s27_3" x="412" y="70" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.3396;0.3996;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.3396;0.3696;0.3996" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s27_4" x="412" y="84" width="11" height="11" rx="2" fill="#39d353" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.3396;0.3996;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.3396;0.3696;0.3996" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s27_5" x="412" y="98" width="11" height="11" rx="2" fill="#0e4429">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.3396;0.3996;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.3396;0.3696;0.3996" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s27_6" x="412" y="112" width="11" height="11" rx="2" fill="#26a641" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.3396;0.3996;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.3396;0.3696;0.3996" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s28_0" x="426" y="28" width="11" height="11" rx="2" fill="#006d32">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.3522;0.4122;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.3522;0.3822;0.4122" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s28_1" x="426" y="42" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.3522;0.4122;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.3522;0.3822;0.4122" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s28_2" x="426" y="56" width="11" height="11" rx="2" fill="#39d353" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.3522;0.4122;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.3522;0.3822;0.4122" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s28_3" x="426" y="70" width="11" height="11" rx="2" fill="#26a641" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.3522;0.4122;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.3522;0.3822;0.4122" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s28_4" x="426" y="84" width="11" height="11" rx="2" fill="#39d353" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.3522;0.4122;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.3522;0.3822;0.4122" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s28_5" x="426" y="98" width="11" height="11" rx="2" fill="#39d353" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.3522;0.4122;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.3522;0.3822;0.4122" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s28_6" x="426" y="112" width="11" height="11" rx="2" fill="#26a641" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.3522;0.4122;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.3522;0.3822;0.4122" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s29_0" x="440" y="28" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.3648;0.4248;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.3648;0.3948;0.4248" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s29_1" x="440" y="42" width="11" height="11" rx="2" fill="#0e4429">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.3648;0.4248;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.3648;0.3948;0.4248" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s29_2" x="440" y="56" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.3648;0.4248;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.3648;0.3948;0.4248" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s29_3" x="440" y="70" width="11" height="11" rx="2" fill="#0e4429">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.3648;0.4248;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.3648;0.3948;0.4248" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s29_4" x="440" y="84" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.3648;0.4248;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.3648;0.3948;0.4248" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s29_5" x="440" y="98" width="11" height="11" rx="2" fill="#0e4429">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.3648;0.4248;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.3648;0.3948;0.4248" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s29_6" x="440" y="112" width="11" height="11" rx="2" fill="#39d353" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.3648;0.4248;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.3648;0.3948;0.4248" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s30_0" x="454" y="28" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.3774;0.4374;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.3774;0.4074;0.4374" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s30_1" x="454" y="42" width="11" height="11" rx="2" fill="#26a641" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.3774;0.4374;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.3774;0.4074;0.4374" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s30_2" x="454" y="56" width="11" height="11" rx="2" fill="#0e4429">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.3774;0.4374;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.3774;0.4074;0.4374" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s30_3" x="454" y="70" width="11" height="11" rx="2" fill="#0e4429">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.3774;0.4374;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.3774;0.4074;0.4374" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s30_4" x="454" y="84" width="11" height="11" rx="2" fill="#39d353" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.3774;0.4374;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.3774;0.4074;0.4374" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s30_5" x="454" y="98" width="11" height="11" rx="2" fill="#39d353" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.3774;0.4374;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.3774;0.4074;0.4374" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s30_6" x="454" y="112" width="11" height="11" rx="2" fill="#006d32">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.3774;0.4374;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.3774;0.4074;0.4374" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s31_0" x="468" y="28" width="11" height="11" rx="2" fill="#006d32">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.3899;0.4499;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.3899;0.4199;0.4499" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s31_1" x="468" y="42" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.3899;0.4499;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.3899;0.4199;0.4499" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s31_2" x="468" y="56" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.3899;0.4499;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.3899;0.4199;0.4499" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s31_3" x="468" y="70" width="11" height="11" rx="2" fill="#39d353" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.3899;0.4499;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.3899;0.4199;0.4499" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s31_4" x="468" y="84" width="11" height="11" rx="2" fill="#006d32">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.3899;0.4499;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.3899;0.4199;0.4499" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s31_5" x="468" y="98" width="11" height="11" rx="2" fill="#0e4429">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.3899;0.4499;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.3899;0.4199;0.4499" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s31_6" x="468" y="112" width="11" height="11" rx="2" fill="#26a641" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.3899;0.4499;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.3899;0.4199;0.4499" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s32_0" x="482" y="28" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.4025;0.4625;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.4025;0.4325;0.4625" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s32_1" x="482" y="42" width="11" height="11" rx="2" fill="#006d32">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.4025;0.4625;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.4025;0.4325;0.4625" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s32_2" x="482" y="56" width="11" height="11" rx="2" fill="#0e4429">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.4025;0.4625;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.4025;0.4325;0.4625" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s32_3" x="482" y="70" width="11" height="11" rx="2" fill="#26a641" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.4025;0.4625;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.4025;0.4325;0.4625" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s32_4" x="482" y="84" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.4025;0.4625;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.4025;0.4325;0.4625" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s32_5" x="482" y="98" width="11" height="11" rx="2" fill="#39d353" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.4025;0.4625;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.4025;0.4325;0.4625" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s32_6" x="482" y="112" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.4025;0.4625;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.4025;0.4325;0.4625" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s33_0" x="496" y="28" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.4151;0.4751;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.4151;0.4451;0.4751" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s33_1" x="496" y="42" width="11" height="11" rx="2" fill="#006d32">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.4151;0.4751;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.4151;0.4451;0.4751" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s33_2" x="496" y="56" width="11" height="11" rx="2" fill="#006d32">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.4151;0.4751;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.4151;0.4451;0.4751" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s33_3" x="496" y="70" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.4151;0.4751;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.4151;0.4451;0.4751" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s33_4" x="496" y="84" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.4151;0.4751;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.4151;0.4451;0.4751" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s33_5" x="496" y="98" width="11" height="11" rx="2" fill="#39d353" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.4151;0.4751;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.4151;0.4451;0.4751" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s33_6" x="496" y="112" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.4151;0.4751;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.4151;0.4451;0.4751" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s34_0" x="510" y="28" width="11" height="11" rx="2" fill="#006d32">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.4277;0.4877;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.4277;0.4577;0.4877" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s34_1" x="510" y="42" width="11" height="11" rx="2" fill="#006d32">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.4277;0.4877;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.4277;0.4577;0.4877" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s34_2" x="510" y="56" width="11" height="11" rx="2" fill="#0e4429">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.4277;0.4877;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.4277;0.4577;0.4877" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s34_3" x="510" y="70" width="11" height="11" rx="2" fill="#006d32">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.4277;0.4877;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.4277;0.4577;0.4877" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s34_4" x="510" y="84" width="11" height="11" rx="2" fill="#0e4429">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.4277;0.4877;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.4277;0.4577;0.4877" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s34_5" x="510" y="98" width="11" height="11" rx="2" fill="#39d353" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.4277;0.4877;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.4277;0.4577;0.4877" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s34_6" x="510" y="112" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.4277;0.4877;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.4277;0.4577;0.4877" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s35_0" x="524" y="28" width="11" height="11" rx="2" fill="#006d32">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.4403;0.5003;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.4403;0.4703;0.5003" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s35_1" x="524" y="42" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.4403;0.5003;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.4403;0.4703;0.5003" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s35_2" x="524" y="56" width="11" height="11" rx="2" fill="#0e4429">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.4403;0.5003;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.4403;0.4703;0.5003" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s35_3" x="524" y="70" width="11" height="11" rx="2" fill="#006d32">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.4403;0.5003;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.4403;0.4703;0.5003" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s35_4" x="524" y="84" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.4403;0.5003;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.4403;0.4703;0.5003" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s35_5" x="524" y="98" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.4403;0.5003;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.4403;0.4703;0.5003" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s35_6" x="524" y="112" width="11" height="11" rx="2" fill="#26a641" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.4403;0.5003;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.4403;0.4703;0.5003" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s36_0" x="538" y="28" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.4528;0.5128;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.4528;0.4828;0.5128" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s36_1" x="538" y="42" width="11" height="11" rx="2" fill="#0e4429">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.4528;0.5128;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.4528;0.4828;0.5128" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s36_2" x="538" y="56" width="11" height="11" rx="2" fill="#39d353" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.4528;0.5128;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.4528;0.4828;0.5128" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s36_3" x="538" y="70" width="11" height="11" rx="2" fill="#39d353" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.4528;0.5128;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.4528;0.4828;0.5128" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s36_4" x="538" y="84" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.4528;0.5128;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.4528;0.4828;0.5128" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s36_5" x="538" y="98" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.4528;0.5128;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.4528;0.4828;0.5128" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s36_6" x="538" y="112" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.4528;0.5128;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.4528;0.4828;0.5128" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s37_0" x="552" y="28" width="11" height="11" rx="2" fill="#39d353" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.4654;0.5254;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.4654;0.4954;0.5254" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s37_1" x="552" y="42" width="11" height="11" rx="2" fill="#39d353" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.4654;0.5254;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.4654;0.4954;0.5254" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s37_2" x="552" y="56" width="11" height="11" rx="2" fill="#39d353" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.4654;0.5254;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.4654;0.4954;0.5254" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s37_3" x="552" y="70" width="11" height="11" rx="2" fill="#0e4429">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.4654;0.5254;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.4654;0.4954;0.5254" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s37_4" x="552" y="84" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.4654;0.5254;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.4654;0.4954;0.5254" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s37_5" x="552" y="98" width="11" height="11" rx="2" fill="#26a641" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.4654;0.5254;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.4654;0.4954;0.5254" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s37_6" x="552" y="112" width="11" height="11" rx="2" fill="#006d32">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.4654;0.5254;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.4654;0.4954;0.5254" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s38_0" x="566" y="28" width="11" height="11" rx="2" fill="#006d32">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.4780;0.5380;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.4780;0.5080;0.5380" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s38_1" x="566" y="42" width="11" height="11" rx="2" fill="#39d353" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.4780;0.5380;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.4780;0.5080;0.5380" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s38_2" x="566" y="56" width="11" height="11" rx="2" fill="#006d32">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.4780;0.5380;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.4780;0.5080;0.5380" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s38_3" x="566" y="70" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.4780;0.5380;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.4780;0.5080;0.5380" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s38_4" x="566" y="84" width="11" height="11" rx="2" fill="#26a641" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.4780;0.5380;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.4780;0.5080;0.5380" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s38_5" x="566" y="98" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.4780;0.5380;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.4780;0.5080;0.5380" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s38_6" x="566" y="112" width="11" height="11" rx="2" fill="#006d32">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.4780;0.5380;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.4780;0.5080;0.5380" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s39_0" x="580" y="28" width="11" height="11" rx="2" fill="#39d353" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.4906;0.5506;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.4906;0.5206;0.5506" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s39_1" x="580" y="42" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.4906;0.5506;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.4906;0.5206;0.5506" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s39_2" x="580" y="56" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.4906;0.5506;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.4906;0.5206;0.5506" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s39_3" x="580" y="70" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.4906;0.5506;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.4906;0.5206;0.5506" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s39_4" x="580" y="84" width="11" height="11" rx="2" fill="#006d32">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.4906;0.5506;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.4906;0.5206;0.5506" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s39_5" x="580" y="98" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.4906;0.5506;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.4906;0.5206;0.5506" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s39_6" x="580" y="112" width="11" height="11" rx="2" fill="#006d32">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.4906;0.5506;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.4906;0.5206;0.5506" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s40_0" x="594" y="28" width="11" height="11" rx="2" fill="#006d32">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.5031;0.5631;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.5031;0.5331;0.5631" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s40_1" x="594" y="42" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.5031;0.5631;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.5031;0.5331;0.5631" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s40_2" x="594" y="56" width="11" height="11" rx="2" fill="#006d32">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.5031;0.5631;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.5031;0.5331;0.5631" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s40_3" x="594" y="70" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.5031;0.5631;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.5031;0.5331;0.5631" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s40_4" x="594" y="84" width="11" height="11" rx="2" fill="#0e4429">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.5031;0.5631;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.5031;0.5331;0.5631" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s40_5" x="594" y="98" width="11" height="11" rx="2" fill="#39d353" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.5031;0.5631;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.5031;0.5331;0.5631" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s40_6" x="594" y="112" width="11" height="11" rx="2" fill="#26a641" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.5031;0.5631;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.5031;0.5331;0.5631" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s41_0" x="608" y="28" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.5157;0.5757;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.5157;0.5457;0.5757" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s41_1" x="608" y="42" width="11" height="11" rx="2" fill="#0e4429">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.5157;0.5757;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.5157;0.5457;0.5757" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s41_2" x="608" y="56" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.5157;0.5757;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.5157;0.5457;0.5757" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s41_3" x="608" y="70" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.5157;0.5757;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.5157;0.5457;0.5757" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s41_4" x="608" y="84" width="11" height="11" rx="2" fill="#26a641" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.5157;0.5757;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.5157;0.5457;0.5757" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s41_5" x="608" y="98" width="11" height="11" rx="2" fill="#006d32">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.5157;0.5757;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.5157;0.5457;0.5757" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s41_6" x="608" y="112" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.5157;0.5757;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.5157;0.5457;0.5757" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s42_0" x="622" y="28" width="11" height="11" rx="2" fill="#26a641" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.5283;0.5883;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.5283;0.5583;0.5883" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s42_1" x="622" y="42" width="11" height="11" rx="2" fill="#006d32">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.5283;0.5883;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.5283;0.5583;0.5883" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s42_2" x="622" y="56" width="11" height="11" rx="2" fill="#0e4429">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.5283;0.5883;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.5283;0.5583;0.5883" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s42_3" x="622" y="70" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.5283;0.5883;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.5283;0.5583;0.5883" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s42_4" x="622" y="84" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.5283;0.5883;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.5283;0.5583;0.5883" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s42_5" x="622" y="98" width="11" height="11" rx="2" fill="#39d353" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.5283;0.5883;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.5283;0.5583;0.5883" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s42_6" x="622" y="112" width="11" height="11" rx="2" fill="#39d353" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.5283;0.5883;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.5283;0.5583;0.5883" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s43_0" x="636" y="28" width="11" height="11" rx="2" fill="#0e4429">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.5409;0.6009;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.5409;0.5709;0.6009" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s43_1" x="636" y="42" width="11" height="11" rx="2" fill="#26a641" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.5409;0.6009;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.5409;0.5709;0.6009" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s43_2" x="636" y="56" width="11" height="11" rx="2" fill="#006d32">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.5409;0.6009;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.5409;0.5709;0.6009" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s43_3" x="636" y="70" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.5409;0.6009;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.5409;0.5709;0.6009" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s43_4" x="636" y="84" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.5409;0.6009;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.5409;0.5709;0.6009" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s43_5" x="636" y="98" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.5409;0.6009;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.5409;0.5709;0.6009" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s43_6" x="636" y="112" width="11" height="11" rx="2" fill="#39d353" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.5409;0.6009;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.5409;0.5709;0.6009" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s44_0" x="650" y="28" width="11" height="11" rx="2" fill="#26a641" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.5535;0.6135;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.5535;0.5835;0.6135" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s44_1" x="650" y="42" width="11" height="11" rx="2" fill="#26a641" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.5535;0.6135;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.5535;0.5835;0.6135" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s44_2" x="650" y="56" width="11" height="11" rx="2" fill="#39d353" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.5535;0.6135;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.5535;0.5835;0.6135" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s44_3" x="650" y="70" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.5535;0.6135;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.5535;0.5835;0.6135" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s44_4" x="650" y="84" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.5535;0.6135;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.5535;0.5835;0.6135" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s44_5" x="650" y="98" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.5535;0.6135;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.5535;0.5835;0.6135" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s44_6" x="650" y="112" width="11" height="11" rx="2" fill="#26a641" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.5535;0.6135;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.5535;0.5835;0.6135" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s45_0" x="664" y="28" width="11" height="11" rx="2" fill="#39d353" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.5660;0.6260;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.5660;0.5960;0.6260" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s45_1" x="664" y="42" width="11" height="11" rx="2" fill="#0e4429">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.5660;0.6260;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.5660;0.5960;0.6260" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s45_2" x="664" y="56" width="11" height="11" rx="2" fill="#006d32">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.5660;0.6260;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.5660;0.5960;0.6260" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s45_3" x="664" y="70" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.5660;0.6260;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.5660;0.5960;0.6260" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s45_4" x="664" y="84" width="11" height="11" rx="2" fill="#39d353" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.5660;0.6260;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.5660;0.5960;0.6260" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s45_5" x="664" y="98" width="11" height="11" rx="2" fill="#26a641" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.5660;0.6260;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.5660;0.5960;0.6260" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s45_6" x="664" y="112" width="11" height="11" rx="2" fill="#39d353" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.5660;0.6260;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.5660;0.5960;0.6260" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s46_0" x="678" y="28" width="11" height="11" rx="2" fill="#26a641" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.5786;0.6386;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.5786;0.6086;0.6386" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s46_1" x="678" y="42" width="11" height="11" rx="2" fill="#39d353" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.5786;0.6386;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.5786;0.6086;0.6386" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s46_2" x="678" y="56" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.5786;0.6386;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.5786;0.6086;0.6386" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s46_3" x="678" y="70" width="11" height="11" rx="2" fill="#26a641" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.5786;0.6386;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.5786;0.6086;0.6386" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s46_4" x="678" y="84" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.5786;0.6386;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.5786;0.6086;0.6386" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s46_5" x="678" y="98" width="11" height="11" rx="2" fill="#39d353" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.5786;0.6386;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.5786;0.6086;0.6386" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s46_6" x="678" y="112" width="11" height="11" rx="2" fill="#26a641" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.5786;0.6386;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.5786;0.6086;0.6386" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s47_0" x="692" y="28" width="11" height="11" rx="2" fill="#26a641" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.5912;0.6512;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.5912;0.6212;0.6512" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s47_1" x="692" y="42" width="11" height="11" rx="2" fill="#26a641" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.5912;0.6512;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.5912;0.6212;0.6512" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s47_2" x="692" y="56" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.5912;0.6512;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.5912;0.6212;0.6512" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s47_3" x="692" y="70" width="11" height="11" rx="2" fill="#26a641" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.5912;0.6512;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.5912;0.6212;0.6512" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s47_4" x="692" y="84" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.5912;0.6512;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.5912;0.6212;0.6512" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s47_5" x="692" y="98" width="11" height="11" rx="2" fill="#39d353" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.5912;0.6512;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.5912;0.6212;0.6512" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s47_6" x="692" y="112" width="11" height="11" rx="2" fill="#26a641" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.5912;0.6512;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.5912;0.6212;0.6512" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s48_0" x="706" y="28" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.6038;0.6638;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.6038;0.6338;0.6638" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s48_1" x="706" y="42" width="11" height="11" rx="2" fill="#26a641" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.6038;0.6638;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.6038;0.6338;0.6638" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s48_2" x="706" y="56" width="11" height="11" rx="2" fill="#0e4429">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.6038;0.6638;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.6038;0.6338;0.6638" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s48_3" x="706" y="70" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.6038;0.6638;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.6038;0.6338;0.6638" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s48_4" x="706" y="84" width="11" height="11" rx="2" fill="#26a641" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.6038;0.6638;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.6038;0.6338;0.6638" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s48_5" x="706" y="98" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.6038;0.6638;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.6038;0.6338;0.6638" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s48_6" x="706" y="112" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.6038;0.6638;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.6038;0.6338;0.6638" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s49_0" x="720" y="28" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.6164;0.6764;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.6164;0.6464;0.6764" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s49_1" x="720" y="42" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.6164;0.6764;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.6164;0.6464;0.6764" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s49_2" x="720" y="56" width="11" height="11" rx="2" fill="#26a641" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.6164;0.6764;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.6164;0.6464;0.6764" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s49_3" x="720" y="70" width="11" height="11" rx="2" fill="#39d353" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.6164;0.6764;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.6164;0.6464;0.6764" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s49_4" x="720" y="84" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.6164;0.6764;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.6164;0.6464;0.6764" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s49_5" x="720" y="98" width="11" height="11" rx="2" fill="#006d32">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.6164;0.6764;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.6164;0.6464;0.6764" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s49_6" x="720" y="112" width="11" height="11" rx="2" fill="#0e4429">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.6164;0.6764;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.6164;0.6464;0.6764" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s50_0" x="734" y="28" width="11" height="11" rx="2" fill="#39d353" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.6289;0.6889;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.6289;0.6589;0.6889" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s50_1" x="734" y="42" width="11" height="11" rx="2" fill="#0e4429">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.6289;0.6889;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.6289;0.6589;0.6889" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s50_2" x="734" y="56" width="11" height="11" rx="2" fill="#39d353" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.6289;0.6889;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.6289;0.6589;0.6889" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s50_3" x="734" y="70" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.6289;0.6889;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.6289;0.6589;0.6889" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s50_4" x="734" y="84" width="11" height="11" rx="2" fill="#39d353" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.6289;0.6889;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.6289;0.6589;0.6889" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s50_5" x="734" y="98" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.6289;0.6889;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.6289;0.6589;0.6889" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s50_6" x="734" y="112" width="11" height="11" rx="2" fill="#39d353" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.6289;0.6889;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.6289;0.6589;0.6889" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s51_0" x="748" y="28" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.6415;0.7015;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.6415;0.6715;0.7015" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s51_1" x="748" y="42" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.6415;0.7015;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.6415;0.6715;0.7015" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s51_2" x="748" y="56" width="11" height="11" rx="2" fill="#0e4429">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.6415;0.7015;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.6415;0.6715;0.7015" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s51_3" x="748" y="70" width="11" height="11" rx="2" fill="#26a641" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.6415;0.7015;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.6415;0.6715;0.7015" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s51_4" x="748" y="84" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.6415;0.7015;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.6415;0.6715;0.7015" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s51_5" x="748" y="98" width="11" height="11" rx="2" fill="#006d32">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.6415;0.7015;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.6415;0.6715;0.7015" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s51_6" x="748" y="112" width="11" height="11" rx="2" fill="#0e4429">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.6415;0.7015;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.6415;0.6715;0.7015" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s52_0" x="762" y="28" width="11" height="11" rx="2" fill="#0e4429">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.6541;0.7141;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.6541;0.6841;0.7141" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s52_1" x="762" y="42" width="11" height="11" rx="2" fill="#006d32">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.6541;0.7141;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.6541;0.6841;0.7141" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s52_2" x="762" y="56" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.6541;0.7141;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.6541;0.6841;0.7141" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s52_3" x="762" y="70" width="11" height="11" rx="2" fill="#006d32">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.6541;0.7141;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.6541;0.6841;0.7141" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s52_4" x="762" y="84" width="11" height="11" rx="2" fill="#161b22">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.6541;0.7141;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.6541;0.6841;0.7141" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s52_5" x="762" y="98" width="11" height="11" rx="2" fill="#39d353" filter="url(#glow)">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.6541;0.7141;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.6541;0.6841;0.7141" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect id="s52_6" x="762" y="112" width="11" height="11" rx="2" fill="#0e4429">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.6541;0.7141;1" dur="6.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" values="1 1;0 0;1.15 1.15;1 1" keyTimes="0;0.6541;0.6841;0.7141" additive="sum" dur="6.0s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.34 1.56 0.64 1;0.25 0.46 0.45 0.94"/>
+</rect>
+<rect x="-1275.0" y="0" width="1275.0" height="165" fill="url(#sweep)" opacity="0.6">
+<animateTransform attributeName="transform" type="translate" values="-1275.0 0;2125.0 0" dur="6s" repeatCount="indefinite"/>
+</rect>
+<style>rect[id^="s"]{transition:filter .15s}rect[id^="s"]:hover{filter:brightness(1.5)}</style>
+</svg>
