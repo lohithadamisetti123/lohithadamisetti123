@@ -12,15 +12,8 @@
 
 
 <!-- HERO SECTION -->
-<<div align="center">
-  <h1 align="center">
+<div align="center">
 
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=3000&pause=800&color=00FFCC&background=14141600&center=true&vCenter=true&width=800&height=50&lines=Hi+👋,+I'm+Lohitha+Damisetti🛸;Full+Stack+%26+Backend+Engineer+⚡;AI+%26+Data+Science+Enthusiast+🧠;Building+Scalable+Software+Solutions+🚀" alt="Typing SVG" />
-
-</h1> 
-<!-- <p align="center">
-  <img src="assets/541654d7-0654-4567-beb0-e7a52117ee58.jpg" alt="LOHITHA DAMISETTI" width="100%" height="180" style="object-fit: cover;">
-</p> -->
 
   
   <h3><strong>Full Stack & Backend Engineer | AI & Data Science Enthusiast</strong></h3>
