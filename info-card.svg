@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="460" viewBox="0 0 480 460" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+<defs>
+  <linearGradient id="ibg" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#111722"/>
+    <stop offset="1" stop-color="#0d1117"/>
+  </linearGradient>
+</defs>
+
+<!-- card background -->
+<rect width="480" height="460" rx="12" fill="url(#ibg)"/>
+<rect x="0.5" y="0.5" width="479" height="459" rx="12" fill="none" stroke="#30363d"/>
+
+<!-- title bar -->
+<line x1="0" y1="30" x2="480" y2="30" stroke="#30363d"/>
+
+<text x="240" y="19" fill="#7d8590" font-size="12" text-anchor="middle">lohithadamisetti123@github: ~$ neofetch</text>
+
+<!-- ── ROW 0: identity header ── -->
+<g opacity="0" transform="translate(0,5)">
+  <text x="20" y="60" font-size="14" font-weight="700">
+    <tspan fill="#3fb950">lohithadamisetti123</tspan>
+    <tspan fill="#7d8590">@</tspan>
+    <tspan fill="#22d3ee">github</tspan>
+  </text>
+  <line x1="178" y1="56" x2="460" y2="56" stroke="#30363d" stroke-opacity="0.8"/>
+  <animate attributeName="opacity" from="0" to="1" begin="0.15s" dur="0.4s" fill="freeze"/>
+  <animateTransform attributeName="transform" type="translate" from="0 5" to="0 0" begin="0.15s" dur="0.4s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+</g>
+
+<!-- ── ROW 2: Role ── -->
+<g opacity="0" transform="translate(0,5)">
+  <text x="20" y="104" fill="#ffa657" font-size="12.5" font-weight="700">Role</text>
+  <text x="112" y="104" fill="#c9d1d9" font-size="12.5">Full Stack Developer</text>
+  <animate attributeName="opacity" from="0" to="1" begin="0.27s" dur="0.4s" fill="freeze"/>
+  <animateTransform attributeName="transform" type="translate" from="0 5" to="0 0" begin="0.27s" dur="0.4s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+</g>
+
+<!-- ── ROW 3: Focus ── -->
+<g opacity="0" transform="translate(0,5)">
+  <text x="20" y="125" fill="#ffa657" font-size="12.5" font-weight="700">Focus</text>
+  <text x="112" y="125" fill="#c9d1d9" font-size="12.5">AI-powered web applications</text>
+  <animate attributeName="opacity" from="0" to="1" begin="0.33s" dur="0.4s" fill="freeze"/>
+  <animateTransform attributeName="transform" type="translate" from="0 5" to="0 0" begin="0.33s" dur="0.4s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+</g>
+
+<!-- ── ROW 4: College ── -->
+<g opacity="0" transform="translate(0,5)">
+  <text x="20" y="146" fill="#ffa657" font-size="12.5" font-weight="700">College</text>
+  <text x="112" y="146" fill="#c9d1d9" font-size="12.5">B.Tech, Aditya Engg. College</text>
+  <animate attributeName="opacity" from="0" to="1" begin="0.39s" dur="0.4s" fill="freeze"/>
+  <animateTransform attributeName="transform" type="translate" from="0 5" to="0 0" begin="0.39s" dur="0.4s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+</g>
+
+<!-- ── SECTION: Stack ── -->
+<g opacity="0" transform="translate(0,5)">
+  <text x="20" y="177" fill="#58a6ff" font-size="12.5" font-weight="700">&#8212; Stack</text>
+  <line x1="72" y1="173" x2="460" y2="173" stroke="#30363d" stroke-opacity="0.8"/>
+  <animate attributeName="opacity" from="0" to="1" begin="0.51s" dur="0.4s" fill="freeze"/>
+  <animateTransform attributeName="transform" type="translate" from="0 5" to="0 0" begin="0.51s" dur="0.4s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+</g>
+
+<!-- ── ROW: Frontend ── -->
+<g opacity="0" transform="translate(0,5)">
+  <text x="20" y="198" fill="#ffa657" font-size="12.5" font-weight="700">Frontend</text>
+  <text x="112" y="198" fill="#c9d1d9" font-size="12.5">React, Next.js, TypeScript</text>
+  <animate attributeName="opacity" from="0" to="1" begin="0.57s" dur="0.4s" fill="freeze"/>
+  <animateTransform attributeName="transform" type="translate" from="0 5" to="0 0" begin="0.57s" dur="0.4s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+</g>
+
+<!-- ── ROW: Backend ── -->
+<g opacity="0" transform="translate(0,5)">
+  <text x="20" y="219" fill="#ffa657" font-size="12.5" font-weight="700">Backend</text>
+  <text x="112" y="219" fill="#c9d1d9" font-size="12.5">Node.js, Python, FastAPI</text>
+  <animate attributeName="opacity" from="0" to="1" begin="0.63s" dur="0.4s" fill="freeze"/>
+  <animateTransform attributeName="transform" type="translate" from="0 5" to="0 0" begin="0.63s" dur="0.4s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+</g>
+
+<!-- ── ROW: Database ── -->
+<g opacity="0" transform="translate(0,5)">
+  <text x="20" y="240" fill="#ffa657" font-size="12.5" font-weight="700">Database</text>
+  <text x="112" y="240" fill="#c9d1d9" font-size="12.5">PostgreSQL, MongoDB, Redis</text>
+  <animate attributeName="opacity" from="0" to="1" begin="0.69s" dur="0.4s" fill="freeze"/>
+  <animateTransform attributeName="transform" type="translate" from="0 5" to="0 0" begin="0.69s" dur="0.4s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+</g>
+
+<!-- ── ROW: Cloud ── -->
+<g opacity="0" transform="translate(0,5)">
+  <text x="20" y="261" fill="#ffa657" font-size="12.5" font-weight="700">Cloud</text>
+  <text x="112" y="261" fill="#c9d1d9" font-size="12.5">AWS, Docker, GitHub Actions</text>
+  <animate attributeName="opacity" from="0" to="1" begin="0.75s" dur="0.4s" fill="freeze"/>
+  <animateTransform attributeName="transform" type="translate" from="0 5" to="0 0" begin="0.75s" dur="0.4s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+</g>
+
+<!-- ── ROW: AI/ML ── -->
+<g opacity="0" transform="translate(0,5)">
+  <text x="20" y="282" fill="#ffa657" font-size="12.5" font-weight="700">AI / ML</text>
+  <text x="112" y="282" fill="#c9d1d9" font-size="12.5">OpenAI, LangChain, Gemini</text>
+  <animate attributeName="opacity" from="0" to="1" begin="0.81s" dur="0.4s" fill="freeze"/>
+  <animateTransform attributeName="transform" type="translate" from="0 5" to="0 0" begin="0.81s" dur="0.4s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+</g>
+
+<!-- ── SECTION: Highlights ── -->
+<g opacity="0" transform="translate(0,5)">
+  <text x="20" y="313" fill="#58a6ff" font-size="12.5" font-weight="700">&#8212; Highlights</text>
+  <line x1="112" y1="309" x2="460" y2="309" stroke="#30363d" stroke-opacity="0.8"/>
+  <animate attributeName="opacity" from="0" to="1" begin="0.87s" dur="0.4s" fill="freeze"/>
+  <animateTransform attributeName="transform" type="translate" from="0 5" to="0 0" begin="0.87s" dur="0.4s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+</g>
+
+<!-- ── BULLET 1 ── -->
+<g opacity="0" transform="translate(0,5)">
+  <circle cx="23" cy="329" r="2.5" fill="#3fb950"/>
+  <text x="34" y="333" fill="#c9d1d9" font-size="12.5">Top 100 — Myntra HackerRamp WeForShe</text>
+  <animate attributeName="opacity" from="0" to="1" begin="0.93s" dur="0.4s" fill="freeze"/>
+  <animateTransform attributeName="transform" type="translate" from="0 5" to="0 0" begin="0.93s" dur="0.4s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+</g>
+
+<!-- ── BULLET 2 ── -->
+<g opacity="0" transform="translate(0,5)">
+  <circle cx="23" cy="354" r="2.5" fill="#3fb950"/>
+  <text x="34" y="358" fill="#c9d1d9" font-size="12.5">Semi-Finalist — Adobe Hackathon</text>
+  <animate attributeName="opacity" from="0" to="1" begin="0.99s" dur="0.4s" fill="freeze"/>
+  <animateTransform attributeName="transform" type="translate" from="0 5" to="0 0" begin="0.99s" dur="0.4s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+</g>
+
+<!-- ── BULLET 3 ── -->
+<g opacity="0" transform="translate(0,5)">
+  <circle cx="23" cy="379" r="2.5" fill="#3fb950"/>
+  <text x="34" y="383" fill="#c9d1d9" font-size="12.5">480+ LeetCode · 500+ CodeChef solved</text>
+  <animate attributeName="opacity" from="0" to="1" begin="1.05s" dur="0.4s" fill="freeze"/>
+  <animateTransform attributeName="transform" type="translate" from="0 5" to="0 0" begin="1.05s" dur="0.4s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+</g>
+
+<!-- ── BULLET 4 ── -->
+<g opacity="0" transform="translate(0,5)">
+  <circle cx="23" cy="404" r="2.5" fill="#3fb950"/>
+  <text x="34" y="408" fill="#c9d1d9" font-size="12.5">40+ production-grade projects built</text>
+  <animate attributeName="opacity" from="0" to="1" begin="1.11s" dur="0.4s" fill="freeze"/>
+  <animateTransform attributeName="transform" type="translate" from="0 5" to="0 0" begin="1.11s" dur="0.4s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+</g>
+
+
+
+</svg>
